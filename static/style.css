@@ -1,0 +1,10 @@
+body{
+    background-color: rgba(53, 144, 144, 0.8);
+}
+
+h1{
+    font-family: "Arial", "Times New Roman";
+    font-size: 300%;
+    text-align:  center;
+    color: white;
+}
