@@ -11,6 +11,13 @@ body{
     display: flex;
 }
 
+.top-articles-list {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+
 /*NAV*/
 .sticky {
     position: fixed;
@@ -28,7 +35,6 @@ body{
 
 
 
-
 li {
     padding: 10px;
 }
@@ -38,7 +44,10 @@ a {
     text-decoration: none; /* to remove uderlines from the hyperlinks*/
 }
 
-html {
+
+/* testing */
+
+/*html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -119,7 +128,7 @@ nav a:focus {
     //opacity: 0.9;
     top: -58px;
     left: 0;
-  /*z-index: 1;*/ 
+
     width: 100%;
     width: 100vw;
   }
@@ -145,6 +154,6 @@ nav a:focus {
   }
 }
 
-.suplemento {height: 1500px;}
+.suplemento {height: 1500px;}*/
 
 /*# sourceMappingURL=style.css.map */
