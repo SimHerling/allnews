@@ -1,6 +1,7 @@
 body{
     /*background-color: rgba(0, 144, 144, 0.8);*/
     background-color: rgba(53, 144, 144, 0.8);
+    margin: auto 0;
 }
 
 /* TITLE */
@@ -8,35 +9,40 @@ body{
     text-align: center;
     font-size: 3rem;
     color: white;
-    display: flex;
+    /*height: 80vh;*/
+    /*display: flex;*/
 }
 
-.top-articles-list {
+/*.top-articles-list {
     display: flex;
     align-items: stretch;
     flex-wrap: nowrap;
-}
+}*/
 
 
 /*NAV*/
-.sticky {
+/*.sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-
+*/
 .main-nav {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: none;
-    font-size: 1em;
+    font-size: 1.5rem;
     margin: 0;
+    padding-left: 0;
 
 }
 
 
 
 li {
-    padding: 10px;
+    padding: 5px;
 }
 
 a {
