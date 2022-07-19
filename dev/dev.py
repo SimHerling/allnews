@@ -23,7 +23,7 @@ weeklys_articles = soup.find("div", {"id": "week-popular-articles"})
 with open("../templates/index_backup.html") as indx:
     txt = indx.read()
     soup_indx = BeautifulSoup(txt, 'html.parser')
-    soup_indx.div.append(todays_articles)
+    soup_indx.hr.insert_after(todays_articles)
     # soup_indx.body.script.insert_before(todays_articles)
     indx.close()
 
