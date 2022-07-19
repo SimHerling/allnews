@@ -1,30 +1,159 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>All News</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="{{ url_for('static', filename='allnews.png') }}">
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-	<link href="../static/style.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-	<nav class="container">
-		<ul class="main-nav">
-		  <li><a href="">Last 24h</a></li>
-		  <li><a href="">Last 7d</a></li>
-		  <li><a href="">World</a></li>
-		  <li><a href="">National</a></li>
-		  <li><a href="">Customize</a></li>
-		  <li><a href="">About</a></li>
-		</ul>
-	</nav>
-	<!-- <div class="title container">All News Here</div> -->
-	<h2 class="title container">All News Here</h2>
-    <!-- <h1>All News Here</h1> -->
-
-<!-- TEST -->
-<!-- <nav>
+ <head>
+  <title>
+   All News
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="{{ url_for('static', filename='allnews.png') }}" rel="shortcut icon"/>
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css"/>
+  <link href="../static/style.css" rel="stylesheet" type="text/css">
+  </link>
+ </head>
+ <body>
+  <nav class="container">
+   <ul class="main-nav">
+    <li class="nav-item">
+     <a href="">
+      24 Hours
+     </a>
+    </li>
+    <li class="nav-item">
+     <a href="">
+      7 Days
+     </a>
+    </li>
+    <li class="nav-item">
+     <a href="">
+      World
+     </a>
+    </li>
+    <li class="nav-item">
+     <a href="">
+      National
+     </a>
+    </li>
+    <li class="nav-item">
+     <a href="">
+      Customize
+     </a>
+    </li>
+    <li class="nav-item">
+     <a href="">
+      About
+     </a>
+    </li>
+   </ul>
+  </nav>
+  <!-- <div class="title container">All News Here</div> -->
+  <h2 class="title container">
+   All News Here
+  </h2>
+  <div class="boxmodel" id="div1">
+   <div class="tab-pane active" id="today-popular-articles" role="tabpanel">
+    <article class="my-popular-articles">
+     <span>
+      1.
+     </span>
+     <div class="my-pop-article-wrapper">
+      <h2>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="1" href="https://www.postoj.sk/109574/cirkev-chape-ako-krivdu-ze-na-jej-pracu-sa-pozera-s-opovrhnutim">
+        Arcibiskup Bober na Cyrilo-metodskej p&uacute;ti
+       </a>
+      </h2>
+      <h3>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="1" href="https://www.postoj.sk/109574/cirkev-chape-ako-krivdu-ze-na-jej-pracu-sa-pozera-s-opovrhnutim">
+        Cirkev ch&aacute;pe ako krivdu, &zcaron;e na jej pr&aacute;cu sa pozer&aacute; s opovrhnut&iacute;m
+       </a>
+      </h3>
+     </div>
+    </article>
+    <article class="my-popular-articles">
+     <span>
+      2.
+     </span>
+     <div class="my-pop-article-wrapper">
+      <h2>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="2" href="https://www.postoj.sk/109192/spustacom-psychickych-poruch-mozu-byt-aj-prehnane-ocakavania-zo-strany-veriacich">
+        K&ncaron;azi a samovra&zcaron;dy
+       </a>
+      </h2>
+      <h3>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="2" href="https://www.postoj.sk/109192/spustacom-psychickych-poruch-mozu-byt-aj-prehnane-ocakavania-zo-strany-veriacich">
+        Sp&uacute;&scaron;&tcaron;a&ccaron;om psychick&yacute;ch por&uacute;ch m&ocirc;&zcaron;u by&tcaron; aj prehnan&eacute; o&ccaron;ak&aacute;vania zo strany veriacich
+       </a>
+      </h3>
+     </div>
+    </article>
+    <article class="my-popular-articles">
+     <span>
+      3.
+     </span>
+     <div class="my-pop-article-wrapper">
+      <h2>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="3" href="https://www.postoj.sk/109506/ked-slovensky-premier-povazuje-otazku-o-destabilizacii-v-koalicii-za-nezdvorilu">
+        Heger a Fiala u V&aacute;clava Moravca
+       </a>
+      </h2>
+      <h3>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="3" href="https://www.postoj.sk/109506/ked-slovensky-premier-povazuje-otazku-o-destabilizacii-v-koalicii-za-nezdvorilu">
+        Ke&dcaron; slovensk&yacute; premi&eacute;r pova&zcaron;uje ot&aacute;zku o odvolan&iacute; Matovi&ccaron;a za nezdvoril&uacute;
+       </a>
+      </h3>
+     </div>
+    </article>
+    <article class="my-popular-articles">
+     <span>
+      4.
+     </span>
+     <div class="my-pop-article-wrapper">
+      <h2>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="4" href="https://www.postoj.sk/109480/garsonka-v-petrzalke-stoji-tolko-co-dvojizbovy-apartman-na-plazi-v-dubaji">
+        Realitn&yacute; poradca o extr&eacute;mnych cen&aacute;ch
+       </a>
+      </h2>
+      <h3>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="4" href="https://www.postoj.sk/109480/garsonka-v-petrzalke-stoji-tolko-co-dvojizbovy-apartman-na-plazi-v-dubaji">
+        Gars&oacute;nka v Petr&zcaron;alke stoj&iacute; to&lcaron;ko &ccaron;o dvojizbov&yacute; apartm&aacute;n na pl&aacute;&zcaron;i v Dubaji
+       </a>
+      </h3>
+     </div>
+    </article>
+    <article class="my-popular-articles">
+     <span>
+      5.
+     </span>
+     <div class="my-pop-article-wrapper">
+      <h2>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="5" href="https://www.postoj.sk/109557/kremel-varoval-ze-vyhostenie-diplomatov-z-bulharska-sa-dotkne-celej-eu">
+        Rusk&aacute; odveta
+       </a>
+      </h2>
+      <h3>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="5" href="https://www.postoj.sk/109557/kremel-varoval-ze-vyhostenie-diplomatov-z-bulharska-sa-dotkne-celej-eu">
+        Kreme&lcaron; varoval, &zcaron;e vyhostenie diplomatov&nbsp;z Bulharska sa dotkne celej E&Uacute;
+       </a>
+      </h3>
+     </div>
+    </article>
+    <article class="my-popular-articles">
+     <span>
+      6.
+     </span>
+     <div class="my-pop-article-wrapper">
+      <h3>
+       <a class="track-me-pls" data-action="click" data-category="clanok_najcitanejsie-clanok" data-label="position-today" data-value="6" href="https://www.postoj.sk/109513/v-rusku-zatkli-smrtelne-choreho-vedca-dva-dni-po-zadrzani-zomrel">
+        V Rusku zatkli smrte&lcaron;ne chor&eacute;ho vedca, dva dni po zadr&zcaron;an&iacute; zomrel
+       </a>
+      </h3>
+     </div>
+    </article>
+   </div>
+  </div>
+  <!-- <h1>All News Here</h1> -->
+  <!-- TEST -->
+  <!-- <nav>
     <div class="block-one">
       <div class="toggle">
         <a href="#"><span class="fa fa-bars fa-lg"></span></a>
@@ -44,10 +173,7 @@
     </div>
 </nav>
 <div class="suplemento"></div> -->
-
-
-
-    <script src="script.js"></script>
-</body>
+  <script src="script.js">
+  </script>
+ </body>
 </html>
-
