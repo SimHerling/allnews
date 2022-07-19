@@ -25,7 +25,7 @@ body{
 
 
 .boxmodel {
-    border:  3px solid #18436b;;
+    /*border:  3px solid #18436b;;*/
     display: inline-block;
 
     padding: 5px 20px 5px 20px;
@@ -34,6 +34,11 @@ body{
 
     width: 30px /* content*/
     height: 10px. /* content*/
+}
+
+.logo-divider {
+    /*width: 50p;*/
+    color: #E8DDDD;
 }
 
 h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a {
@@ -158,4 +163,12 @@ h3 a {
 h2 a {
     color: #1376c1;
     text-decoration: none;
+}
+
+.logo {
+    /*position: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
 }
