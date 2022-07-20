@@ -29,11 +29,11 @@ from bs4 import BeautifulSoup  # for scraping
 #     html_raw.write(res.text)
 #     html_raw.close()
 
-# GET PRAVDA'S HTML
-res = requests.get('https://pravda.sk')
-with open('../media_code/pravda_html.txt',mode='w+') as html_raw:
-    html_raw.write(res.text)
-    html_raw.close()
+# # GET PRAVDA'S HTML
+# res = requests.get('https://pravda.sk')
+# with open('../media_code/pravda_html.txt',mode='w+') as html_raw:
+#     html_raw.write(res.text)
+#     html_raw.close()
 
 ## Postoj Parsing
 with open('../media_code/postoj_html.txt', mode='r') as html_raw:
@@ -59,25 +59,25 @@ with open("../templates/index.html", "w") as outf:
 
 
 
-## Pravda Parsing
-with open('../media_code/pravda_html.txt', mode='r') as html_raw:
-    soup = BeautifulSoup(html_raw.read(), 'html.parser')
-    html_raw.close()
+# ## HN Parsing
+# with open('../media_code/hnfinweb_html.txt', mode='r') as html_raw:
+#     soup = BeautifulSoup(html_raw.read(), 'html.parser')
+#     html_raw.close()
+#
+# hn_todays_articles = soup.find("div", {"id": "T24h-"}) #these tags were not loaded from some reason
+# hn_weeklys_articles = soup.find("div", {"id": "T7d-"})
+#
+# print(hn_todays_articles)
 
-pravda_todays_articles = soup.find("ol", {"class": "interval-list-1"})
-pravda_weeklys_articles = soup.find("ol", {"class": "interval-list-3"})
-
-# print(pravda_todays_articles)
-
-# load the index file file
-with open("../templates/index.html") as indx:
-    txt = indx.read()
-    soup_indx = BeautifulSoup(txt, 'html.parser')
-    soup_indx.script.insert_before(pravda_todays_articles)
-    # soup_indx.hr.insert_after(pravda_weeklys_articles)
-    indx.close()
-
-# save the file again
-with open("../templates/index.html", "w") as outf:
-    outf.write(str(soup_indx.prettify(formatter="html")))
-    outf.close()
+# # load the index file file
+# with open("../templates/index.html") as indx:
+#     txt = indx.read()
+#     soup_indx = BeautifulSoup(txt, 'html.parser')
+#     soup_indx.script.insert_before(hn_todays_articles)
+#     # soup_indx.hr.insert_after(hn_weeklys_articles)
+#     indx.close()
+#
+# # save the file again
+# with open("../templates/index.html", "w") as outf:
+#     outf.write(str(soup_indx.prettify(formatter="html")))
+#     outf.close()
