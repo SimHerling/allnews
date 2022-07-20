@@ -1,0 +1,1678 @@
+
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#" lang="sk-sk" dir="ltr" class='com_ocm view-itemlist layout-category task-category itemid-102099 j39 mm-hover site--hnonline'>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="politika, Slovensko, domov, kauza, Bašternák, Fico, Sulík, Matovič, Danko, zdravotníctvo" />
+	<meta property="og:url" content="https://hnonline.sk/slovensko" />
+	<meta property="og:title" content="Slovensko - správy z domova na HNonline" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://hnonline.sk/slovensko/templates/site/images/og_logo_hnonline.png" />
+	<meta name="image" content="https://hnonline.sk/slovensko/templates/site/images/og_logo_hnonline.png" />
+	<meta property="og:description" content="kauzy, politika, zdravotníctvo a ďalšie zaujímavé správy z domova." />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes, shrink-to-fit=no" />
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="apple-mobile-web-app-capable" content="YES" />
+	<meta name="description" content="kauzy, politika, zdravotníctvo a ďalšie zaujímavé správy z domova." />
+	<title>HNonline.sk - Slovensko - správy z domova na HNonline</title>
+	<link href="/slovensko/feed" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="https://hnonline.sk/slovensko" rel="canonical" />
+	<link href="https://fonts.googleapis.com" rel="dns-prefetch" />
+	<link href="https://fonts.gstatic.com" rel="preconnect" />
+	<link href="/templates/site/bootstrap5/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Libre%20Franklin:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;400&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet" />
+	<link href="/templates/site/css/custom_hnonline.css?1657710935" rel="stylesheet" />
+	<script type="application/json" class="joomla-script-options new">{"lazyExpand":5,"lazyPreload":false,"AOKey":"slovensko","articleID":false,"category":"slovensko","author":false,"itemType":false,"itemTags":false,"CMSPageType":"category","DFPTopCategoryAlias":"hnonline","categoryHighParentId":"2096","categoryCurrentId":"2099","csrf.token":"d00eacda10774bf75edbb0dfffa8a1ed","system.paths":{"root":"","base":""}}</script>
+	<script src="/templates/site/js/jquery_noconflict_migrate.min.js?1640170236" defer></script>
+	<script src="/components/com_ocm/js/URI.js"></script>
+	<script src="/templates/site/js/jquery.infinitescroll.min.js?1643810073" defer></script>
+	<script src="/templates/site/bootstrap5/js/bootstrap.bundle.min.js" defer></script>
+	<script src="/templates/site/js/pushstream.js" defer></script>
+	<script src="/templates/site/js/splide.min.js?1647945050" defer></script>
+	<script src="/templates/site/js/splide-extension-auto-scroll.js?1647945050" defer></script>
+	<script src="/templates/site/js/custom.js?1655306739" defer></script>
+	<script src="/templates/site/js/custom_hnonline.js?1652457166" defer></script>
+	<script src="/templates/site/js/iframeResizer.min.js?1640170236" defer></script>
+	<script src="/templates/site/js/premium.js?1657733317" defer></script>
+	<script src="/media/system/js/core.js?b9b7c9a0e5b41f5b178dea364fbd3cd5"></script>
+	<script>
+var siteTemplate = "hnonline";var siteAds = "hnonline";window.lazySizesConfig = window.lazySizesConfig || {};
+function getViewPortWidth() {
+    return document.body.clientWidth;;
+}    
+function imageFallBack (imgElement, tplName) {
+    if (typeof tplName === typeof undefined) { tplName = 'site'; }
+    if (imgElement.getAttribute('data-fallback') === '') {
+        try {
+            imgElement.setAttribute('data-fallback', 'done');          
+
+            var srcElements = [];
+            var picElement = imgElement.parentNode;
+            var sibling = picElement.firstChild;
+            while (sibling) {
+                if ((sibling.nodeType === 1) && (sibling !== imgElement)) {
+                    srcElements.push(sibling);
+                }
+                sibling = sibling.nextSibling;
+            }
+
+            var screenWidth = getViewPortWidth();
+            var imgPreffix = '/h_';    
+            var imgSuffix = '_640.jpg';            
+            var blMediaFound = false;                  
+            srcElements.forEach(function(srcELement) {
+                if (!blMediaFound) {
+                    var strMedia = srcELement.getAttribute('media');
+                    strMedia = strMedia.replace('(min-width: ', '');
+                    strMedia = strMedia.replace('px)', '');
+                    if (screenWidth >= parseInt(strMedia)) {
+                        blMediaFound = true;
+                        var strSrcset = srcELement.getAttribute('srcset');
+                        sep = '#$#';
+                        strSrcset = strSrcset.replace(/\//g, sep);
+                        n = strSrcset.lastIndexOf(sep);
+                        var imgname = strSrcset.substring(n + sep.length);
+                        var imgPreffixTmp = imgname.substring(0, imgname.indexOf('_'));   
+                        if (imgPreffixTmp.length > 0 ) {
+                            imgPreffix = imgPreffixTmp;
+                        }
+                        var imgfb = (imgPreffix + '_no-image' + imgSuffix).replace('__', '_');
+                        srcELement.setAttribute('srcset', '/templates/' + tplName + '/images/jpgs/' + imgfb);
+                    }
+                }                
+            });            
+        }
+        catch(err) { 
+            console.log(err.message);
+        }        
+    }        
+}
+
+	</script>
+	<script src="/templates/site/js/lazysizes.min.js?1640170236" async=""></script>
+	<link rel="preload" href="/templates/site/fonts/font-awesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="preload" href="/templates/site/fonts/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="preload" href="/templates/site/fonts/font-awesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="">
+	<style>
+.card--pix-5001 .card__image, .card--pix-5002 .card__image, .card--pix-5003 .card__image, .card--pix-5004 .card__image, .card--pix-5005 .card__image, .card--pix-5006 .card__image, .card--pix-5007 .card__image, .card--pix-5008 .card__image, .card--pix-5009 .card__image, .card--pix-5010 .card__image, .card--pix-5011 .card__image, .card--pix-5012 .card__image, .card--pix-5013 .card__image, .card--pix-5014 .card__image, .card--pix-5015 .card__image, .card--pix-5016 .card__image, .card--pix-5017 .card__image, .card--pix-5018 .card__image, .card--pix-5019 .card__image, .card--pix-5020 .card__image, .card--pix-5021 .card__image, .card--pix-5023 .card__image, .card--pix-5024 .card__image, .card--pix-5025 .card__image, .card--pix-5026 .card__image, .card--pix-5027 .card__image, .card--pix-5028 .card__image, .card--pix-5029 .card__image, .card--pix-5030 .card__image { position: absolute; }
+.card--pix-5001 .card__picture, .card--pix-5002 .card__picture, .card--pix-5003 .card__picture, .card--pix-5004 .card__picture, .card--pix-5005 .card__picture, .card--pix-5006 .card__picture, .card--pix-5007 .card__picture, .card--pix-5008 .card__picture, .card--pix-5009 .card__picture, .card--pix-5010 .card__picture, .card--pix-5011 .card__picture, .card--pix-5012 .card__picture, .card--pix-5013 .card__picture, .card--pix-5014 .card__picture, .card--pix-5015 .card__picture, .card--pix-5016 .card__picture, .card--pix-5017 .card__picture, .card--pix-5018 .card__picture, .card--pix-5019 .card__picture, .card--pix-5020 .card__picture, .card--pix-5021 .card__picture, .card--pix-5023 .card__picture, .card--pix-5024 .card__picture, .card--pix-5025 .card__picture, .card--pix-5026 .card__picture, .card--pix-5027 .card__picture, .card--pix-5028 .card__picture, .card--pix-5029 .card__picture, .card--pix-5030 .card__picture { position: relative; overflow:hidden; display: block;}
+@media (min-width:768px){.card--pix-5001 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5001 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5001 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1px){.card--pix-5002 .card__picture {padding-bottom:66.72%}}
+@media (min-width:768px){.card--pix-5003 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5003 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5003 .card__picture {padding-bottom:50.00%}}
+@media (min-width:768px){.card--pix-5004 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5004 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5004 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1024px){.card--pix-5005 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1023px) and (min-width:768px){.card--pix-5005 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5005 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5005 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1024px){.card--pix-5006 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1023px) and (min-width:768px){.card--pix-5006 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5006 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5006 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5007 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1024px){.card--pix-5007 .card__picture {padding-bottom:100.00%}}
+@media (max-width:1023px) and (min-width:1px){.card--pix-5007 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5008 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1024px){.card--pix-5008 .card__picture {padding-bottom:100.00%}}
+@media (max-width:1023px) and (min-width:480px){.card--pix-5008 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5008 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1024px){.card--pix-5009 .card__picture {padding-bottom:50.00%}}
+@media (max-width:1023px) and (min-width:1px){.card--pix-5009 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5010 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1px){.card--pix-5010 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5011 .card__picture {padding-bottom:50.00%}}
+@media (max-width:1279px) and (min-width:768px){.card--pix-5011 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:1px){.card--pix-5011 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5012 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1px){.card--pix-5012 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5013 .card__picture {padding-bottom:50.00%}}
+@media (max-width:1279px) and (min-width:1024px){.card--pix-5013 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1023px) and (min-width:768px){.card--pix-5013 .card__picture {padding-bottom:100.00%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5013 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5013 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5014 .card__picture {padding-bottom:50.00%}}
+@media (max-width:1279px) and (min-width:1px){.card--pix-5014 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5015 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1024px){.card--pix-5015 .card__picture {padding-bottom:100.00%}}
+@media (max-width:1023px) and (min-width:1px){.card--pix-5015 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5016 .card__picture {padding-bottom:50.00%}}
+@media (max-width:1279px) and (min-width:1px){.card--pix-5016 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5017 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1px){.card--pix-5017 .card__picture {padding-bottom:66.72%}}
+@media (min-width:768px){.card--pix-5018 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5018 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5018 .card__picture {padding-bottom:66.72%}}
+@media (min-width:768px){.card--pix-5019 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:1px){.card--pix-5019 .card__picture {padding-bottom:100.00%}}
+@media (min-width:1024px){.card--pix-5020 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1023px) and (min-width:768px){.card--pix-5020 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5020 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5020 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1024px){.card--pix-5021 .card__picture {padding-bottom:100.00%}}
+@media (max-width:1023px) and (min-width:480px){.card--pix-5021 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5021 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5024 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1024px){.card--pix-5024 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1023px) and (min-width:1px){.card--pix-5024 .card__picture {padding-bottom:100.00%}}
+@media (min-width:1280px){.card--pix-5025 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1024px){.card--pix-5025 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1023px) and (min-width:480px){.card--pix-5025 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5025 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1280px){.card--pix-5026 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1279px) and (min-width:1024px){.card--pix-5026 .card__picture {padding-bottom:66.72%}}
+@media (max-width:1023px) and (min-width:480px){.card--pix-5026 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5026 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1px){.card--pix-5027 .card__picture {padding-bottom:66.72%}}
+@media (min-width:1024px){.card--pix-5028 .card__picture {padding-bottom:50.00%}}
+@media (max-width:1023px) and (min-width:768px){.card--pix-5028 .card__picture {padding-bottom:50.00%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5028 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5028 .card__picture {padding-bottom:100.00%}}
+@media (min-width:1024px){.card--pix-5029 .card__picture {padding-bottom:50.00%}}
+@media (max-width:1023px) and (min-width:768px){.card--pix-5029 .card__picture {padding-bottom:66.72%}}
+@media (max-width:767px) and (min-width:480px){.card--pix-5029 .card__picture {padding-bottom:100.00%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5029 .card__picture {padding-bottom:100.00%}}
+@media (min-width:640px){.card--pix-5030 .card__picture {padding-bottom:66.72%}}
+@media (max-width:639px) and (min-width:480px){.card--pix-5030 .card__picture {padding-bottom:66.72%}}
+@media (max-width:479px) and (min-width:1px){.card--pix-5030 .card__picture {padding-bottom:100.00%}}
+</style>
+
+	<script src='https://etarget.mgr.consensu.org/gdpr/tcfv2/stub.js'></script>
+<script>if (!window.navigator.userAgent.match(/cXensebot/i)) {
+                        document.write('<script src="https://etarget.mgr.consensu.org/gdpr/gdpr.js.php?id=12&nostub=1" async></'+'script>')
+                    }</script>
+
+<meta property="fb:app_id" content="969846989734982" />
+
+            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WFBFWDB');</script>
+            <!-- End Google Tag Manager -->
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src='https://www.googletagmanager.com/gtag/js?id=UA-90225-1'></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'UA-90225-1');
+            </script>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src='https://www.googletagmanager.com/gtag/js?id=G-JHLYMQ3DVM'></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-JHLYMQ3DVM');
+            </script>
+        <script src="//sk.adocean.pl/files/js/ado.js"></script>
+        <script>
+            if(typeof ado!=="object"){ado={};ado.config=ado.preview=ado.placement=ado.master=ado.slave=function(){};}
+            ado.config({mode: "new", xml: false, consent: true, characterEncoding: true});
+            ado.preview({enabled: true});
+            var myVars = "page_url=" + encodeURIComponent(window.location.href);
+
+            ado.master({id: 'LgEBCxZNbGWy1BvCM8Wp5Fg234CYKy_9iBChRzsGkF7.g7', server: 'sk.adocean.pl', keys:['slovensko'], vars:myVars });
+            console.log ("%c Ads::::: AdOcean key = " + "slovensko , masterID = LgEBCxZNbGWy1BvCM8Wp5Fg234CYKy_9iBChRzsGkF7.g7", "color: blue;");
+        </script><script>var cX = cX || {}; cX.callQueue = cX.callQueue || [];document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/"; var setNptTechAdblockerCookie = function(adblocker) { var d = new Date(); d.setTime(d.getTime() + 60 * 5 * 1000); document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/"; if (adblocker) { cX.callQueue.push(['setCustomParameters', { 'adblocker': 'true' }]); } };var script = document.createElement("script"); script.setAttribute("async", true); script.setAttribute("src", "//www.npttech.com/advertising.js"); script.setAttribute("onerror", "setNptTechAdblockerCookie(true);"); document.getElementsByTagName("head")[0].appendChild(script); </script>
+<script src="https://tag.aticdn.net/625391/smarttag.js"></script>
+
+
+                                                <!-- OneSignal HNonline -->
+                <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+                <script>var OneSignal = OneSignal || [];</script>
+                <script>
+                var OneSignal = window.OneSignal || [];
+                    OneSignal.push(function() {
+                    OneSignal.init({
+                    appId: "d74c0881-bccd-4118-a5de-fa780fe6ffd8",
+                    safari_web_id: 'web.onesignal.auto.040fbea3-5bf4-4f81-a6ad-042d48246d00',
+                    promptOptions: {
+                        siteName: 'HNonline',
+                        actionMessage: "Buďte informovaní o najnovších správach z politiky, ekonomiky a financií.",
+                        exampleNotificationTitle: 'Príklad oznámenia',
+                        exampleNotificationMessage: 'Toto je príklad oznámenia',
+                        exampleNotificationCaption: ' Zrušiť odber môžete kedykoľvek',
+                        acceptButtonText: "POVOLIŤ",         
+                        cancelButtonText: "NIE, ĎAKUJEM",
+                        autoAcceptTitle: 'Notifikácie',
+                    }
+                    });
+                    OneSignal.showHttpPrompt();
+                    });
+                
+                </script>
+                <!-- OneSignal -->            
+                            
+        
+        
+        
+        
+            <!-- Strossle SDK -->
+            <script>
+              window.strossle=window.strossle||function(){(strossle.q=strossle.q||[]).push(arguments)};
+              strossle("34bc34d3-ed3b-4d6d-bbe8-e8c5b41acae7", ".strossle-widget-odporucame");
+              strossle("3675a31d-5217-4432-bf8c-f6098be9d154", ".strossle-widget-paticka");
+            </script>
+            <script async src="https://assets.strossle.com/34bc34d3-ed3b-4d6d-bbe8-e8c5b41acae7.js">
+            </script>
+            <!-- End Strossle SDK -->
+<link rel="apple-touch-icon" sizes="57x57" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/templates/site/images/pngs/favicon-hnonline/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/templates/site/images/pngs/favicon-hnonline/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/templates/site/images/pngs/favicon-hnonline/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/templates/site/images/pngs/favicon-hnonline/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/templates/site/images/pngs/favicon-hnonline/favicon-16x16.png">
+<link rel="manifest" href="/templates/site/images/pngs/favicon-hnonline/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/templates/site/images/pngs/favicon-hnonline/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script class="adScriptDiv">
+    function adScript () {
+        var script = document.createElement('script');
+        script.setAttribute('src',"/templates/site/js/ads.js?1653938190");
+        script.setAttribute("defer", "defer");
+        var adScriptDiv = document.querySelector('.adScriptDiv');
+        adScriptDiv.after(script);
+    }
+</script>
+
+<script type="text/javascript" src="https://tag.aticdn.net/625391/smarttag.js"></script>
+
+<style>
+    .grid__card--hn24 .date-20-07-2022{ display: none !important;} </style>
+  </head>
+
+<body>
+
+              
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFBFWDB"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+
+
+    <div class="container container--break container--outter container--break-00">
+<div class="grid">
+<div class="position_break_00_top" ></div>
+
+<div class="position_break_00_bottom" ></div>
+</div>
+</div>
+<div class="header__wrap"><header id="t3-header" class="container container--inner t3-header ">   <nav id="t3-mainnav" class="navbar navbar-expand-lg bg-white navbar-main navbar-main--hnonline"><h1 class="navbar-brand site-title site-title--hnonline">
+<a class="site-title__link" href="https://hnonline.sk/" title="HNonline.sk">
+<span class="site-title__txt">HNonline.sk</span><figure class="site-title__figure"><picture><source media="(min-width: 1280px)" srcset="/templates/site/images/svgs/hnonline_logo_negativ.svg"><source media="(min-width: 1024px)" srcset="/templates/site/images/svgs/hnonline_logo_negativ_mobile.svg"><source media="(max-width: 1023px)" srcset="/templates/site/images/svgs/hnonline_logo_negativ_mobile.svg"><img class="site-title__img" src="/templates/site/images/svgs/hnonline_logo_negativ.svg" alt="HNonline.sk"></picture></figure></a>
+</h1>
+<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTarget" aria-controls="navbarTarget" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarTarget">
+<ul class="navbar-nav navbar-nav--hnonline mr-auto ">
+
+<li class="nav__item item-103190 nav__item--hn24 menu-group-1 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/hn24" class="menu-group-1 nav__link">HN24.sk</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103253 nav__item--vojna-na-ukrajine"><a data-abs-url="true" href="https://hnonline.sk/hn24/vojna-na-ukrajine" class=" nav__link">#vojna na Ukrajine</a></li>
+</ul>
+</li>
+<li class="nav__item item-102099 nav__item--slovensko menu-group-1 current active dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/slovensko" class="menu-group-1 nav__link">Slovensko</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103143 nav__item--koronavirus"><a data-abs-url="true" href="https://hnonline.sk/slovensko/koronavirus" class=" nav__link">Koronavírus</a></li>
+<li class="nav__item item-103142 nav__item--vlada"><a data-abs-url="true" href="https://hnonline.sk/slovensko/vlada" class=" nav__link">Vláda</a></li>
+<li class="nav__item item-103144 nav__item--dialnice"><a data-abs-url="true" href="https://hnonline.sk/slovensko/dialnice" class=" nav__link">Diaľnice</a></li>
+<li class="nav__item item-103146 nav__item--doprava"><a data-abs-url="true" href="https://hnonline.sk/slovensko/doprava" class=" nav__link">Doprava</a></li>
+<li class="nav__item item-103147 nav__item--eduard-heger"><a data-abs-url="true" href="https://hnonline.sk/slovensko/eduard-heger" class=" nav__link">Eduard Heger</a></li>
+<li class="nav__item item-103148 nav__item--igor-matovic"><a data-abs-url="true" href="https://hnonline.sk/slovensko/igor-matovic" class=" nav__link">Igor Matovič</a></li>
+<li class="nav__item item-103149 nav__item--richard-sulik"><a data-abs-url="true" href="https://hnonline.sk/slovensko/richard-sulik" class=" nav__link">Richard Sulík</a></li>
+<li class="nav__item item-103150 nav__item--peter-pellegrini"><a data-abs-url="true" href="https://hnonline.sk/slovensko/peter-pellegrini" class=" nav__link">Peter Pellegrini</a></li>
+<li class="nav__item item-103151 nav__item--robert-fico"><a data-abs-url="true" href="https://hnonline.sk/slovensko/robert-fico" class=" nav__link">Robert Fico</a></li>
+</ul>
+</li>
+<li class="nav__item item-100002 nav__item--finweb menu-group-1 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/finweb" class="menu-group-1 menu--finweb nav__link">Ekonomika a financie</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102424 nav__item--zahranicna-ekonomika"><a data-abs-url="true" href="https://hnonline.sk/finweb/zahranicna-ekonomika" class=" nav__link">Zahraničná ekonomika</a></li>
+<li class="nav__item item-101377 nav__item--ekonomika"><a data-abs-url="true" href="https://hnonline.sk/finweb/ekonomika" class=" nav__link">Domáca ekonomika</a></li>
+<li class="nav__item item-101370 nav__item--financie-a-burzy"><a data-abs-url="true" href="https://hnonline.sk/finweb/financie-a-burzy" class=" nav__link">Financie a burzy</a></li>
+<li class="nav__item item-101372 nav__item--tema-tyzdna"><a data-abs-url="true" href="https://hnonline.sk/finweb/tema-tyzdna" class=" nav__link">Téma týždňa</a></li>
+<li class="nav__item item-101367 nav__item--komentare-a-analyzy"><a data-abs-url="true" href="https://hnonline.sk/finweb/komentare-a-analyzy" class=" nav__link">Komentáre a analýzy</a></li>
+<li class="nav__item item-102681 nav__item--generacna-vymena"><a data-abs-url="true" href="https://hnonline.sk/finweb/generacna-vymena" class=" nav__link">Generačná výmena</a></li>
+</ul>
+</li>
+<li class="nav__item item-102100 nav__item--svet menu-group-1 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/svet" class="menu-group-1 nav__link">Svet</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103254 nav__item--vojna-na-ukrajine"><a data-abs-url="true" href="https://hnonline.sk/svet/vojna-na-ukrajine" class=" nav__link">Vojna na Ukrajine</a></li>
+<li class="nav__item item-103152 nav__item--nemecko menu-group-1"><a data-abs-url="true" href="https://hnonline.sk/svet/nemecko" class="menu-group-1 nav__link">Nemecko</a></li>
+<li class="nav__item item-103153 nav__item--usa menu-group-1"><a data-abs-url="true" href="https://hnonline.sk/svet/usa" class="menu-group-1 nav__link">USA</a></li>
+<li class="nav__item item-103154 nav__item--rusko menu-group-1"><a data-abs-url="true" href="https://hnonline.sk/svet/rusko" class="menu-group-1 nav__link">Rusko</a></li>
+<li class="nav__item item-103155 nav__item--koronavirus menu-group-1"><a data-abs-url="true" href="https://hnonline.sk/svet/koronavirus" class="menu-group-1 nav__link">Koronavírus</a></li>
+<li class="nav__item item-103156 nav__item--joe-biden menu-group-1"><a data-abs-url="true" href="https://hnonline.sk/svet/joe-biden" class="menu-group-1 nav__link">Joe Biden</a></li>
+<li class="nav__item item-103157 nav__item--vladimir-putin menu-group-1"><a data-abs-url="true" href="https://hnonline.sk/svet/vladimir-putin" class="menu-group-1 nav__link">Vladimir Putin</a></li>
+<li class="nav__item item-102158 nav__item--globalne menu-group-2"><a data-abs-url="true" href="https://hnonline.sk/svet/globalne" class="menu-group-2 nav__link">Globálne</a></li>
+</ul>
+</li>
+<li class="nav__item item-100004 nav__item--komentare menu-group-1 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/komentare" class="menu-group-1 menu--komentare nav__link">Komentáre</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-101440 nav__item--komentare-hn"><a data-abs-url="true" href="https://hnonline.sk/komentare/komentare-hn" class=" nav__link">Komentáre HN</a></li>
+<li class="nav__item item-101441 nav__item--komentare"><a data-abs-url="true" href="https://hnonline.sk/komentare/komentare" class=" nav__link">Osobnosti pre HN</a></li>
+<li class="nav__item item-101439 nav__item--karikatury"><a href="https://hnonline.sk/komentare/karikatury/96022008-karikatury" class="nav__link nav-link" target="_blank" rel="noopener noreferrer">Karikatúry</a></li>
+<li class="nav__item item-102873 nav__item--financial-times-v-hn"><a data-abs-url="true" href="https://hnonline.sk/komentare/financial-times-v-hn" class=" nav__link">Financial Times v HN</a></li>
+</ul>
+</li>
+<li class="nav__item item-102250 nav__item--history menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/history" class="menu-group-2 nav__link">History</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102251 nav__item--starsie-dejiny"><a data-abs-url="true" href="https://hnonline.sk/history/starsie-dejiny" class=" nav__link">Staršie dejiny</a></li>
+<li class="nav__item item-102300 nav__item--1-svetova-vojna"><a data-abs-url="true" href="https://hnonline.sk/history/1-svetova-vojna" class=" nav__link">I. Svetová vojna</a></li>
+<li class="nav__item item-102252 nav__item--2-svetova-vojna"><a data-abs-url="true" href="https://hnonline.sk/history/2-svetova-vojna" class=" nav__link">II. Svetová vojna</a></li>
+<li class="nav__item item-102301 nav__item--studena-vojna"><a data-abs-url="true" href="https://hnonline.sk/history/studena-vojna" class=" nav__link">Studená vojna</a></li>
+<li class="nav__item item-102302 nav__item--nove-dejiny"><a data-abs-url="true" href="https://hnonline.sk/history/nove-dejiny" class=" nav__link">Nové dejiny</a></li>
+<li class="nav__item item-102303 nav__item--profily"><a data-abs-url="true" href="https://hnonline.sk/history/profily" class=" nav__link">Profily</a></li>
+<li class="nav__item item-102304 nav__item--testy"><a data-abs-url="true" href="https://hnonline.sk/history/testy" class=" nav__link">Testy</a></li>
+<li class="nav__item item-102305 nav__item--historicke-fotogalerie"><a data-abs-url="true" href="https://hnonline.sk/history/historicke-fotogalerie" class=" nav__link">Historické fotogalérie</a></li>
+</ul>
+</li>
+<li class="nav__item item-102375 nav__item--science menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/science" class="menu-group-2 nav__link">Science</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102376 nav__item--medicina"><a data-abs-url="true" href="https://hnonline.sk/science/medicina" class=" nav__link">Medicína</a></li>
+<li class="nav__item item-102377 nav__item--biologia-a-chemia"><a data-abs-url="true" href="https://hnonline.sk/science/biologia-a-chemia" class=" nav__link">Biológia a chémia</a></li>
+<li class="nav__item item-102380 nav__item--klima-a-fyzika"><a data-abs-url="true" href="https://hnonline.sk/science/klima-a-fyzika" class=" nav__link">Klíma a fyzika</a></li>
+<li class="nav__item item-102381 nav__item--astronomia-a-vesmir"><a data-abs-url="true" href="https://hnonline.sk/science/astronomia-a-vesmir" class=" nav__link">Astronómia a vesmír</a></li>
+<li class="nav__item item-102382 nav__item--nove-technologie"><a data-abs-url="true" href="https://hnonline.sk/science/nove-technologie" class=" nav__link">Nové technológie</a></li>
+</ul>
+</li>
+<li class="nav__item item-101225 nav__item--style menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/style" class="menu-group-2 nav__link">Style</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-101405 nav__item--tech"><a data-abs-url="true" href="https://hnonline.sk/style/tech" class=" nav__link">Tech</a></li>
+<li class="nav__item item-101397 nav__item--kultura"><a data-abs-url="true" href="https://hnonline.sk/style/kultura" class=" nav__link">Kultúra</a></li>
+<li class="nav__item item-101391 nav__item--byvanie"><a data-abs-url="true" href="https://hnonline.sk/style/byvanie" class=" nav__link">Bývanie</a></li>
+<li class="nav__item item-102427 nav__item--osobnosti"><a data-abs-url="true" href="https://hnonline.sk/style/osobnosti" class=" nav__link">Osobnosti</a></li>
+<li class="nav__item item-101395 nav__item--dizajn"><a data-abs-url="true" href="https://hnonline.sk/style/dizajn" class=" nav__link">Dizajn</a></li>
+<li class="nav__item item-101396 nav__item--gastro"><a data-abs-url="true" href="https://hnonline.sk/style/gastro" class=" nav__link">Gastro</a></li>
+<li class="nav__item item-101393 nav__item--cestovanie"><a data-abs-url="true" href="https://hnonline.sk/style/cestovanie" class=" nav__link">Cestovanie</a></li>
+</ul>
+</li>
+<li class="nav__item item-102417 nav__item--focus menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/focus" class="menu-group-2 nav__link">Focus</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102418 nav__item--ekonomika"><a data-abs-url="true" href="https://hnonline.sk/focus/ekonomika" class=" nav__link">Ekonomika</a></li>
+<li class="nav__item item-102419 nav__item--biznis"><a data-abs-url="true" href="https://hnonline.sk/focus/biznis" class=" nav__link">Biznis</a></li>
+<li class="nav__item item-102420 nav__item--politika-s-spolocnost"><a data-abs-url="true" href="https://hnonline.sk/focus/politika-s-spolocnost" class=" nav__link">Politika a spoločnosť</a></li>
+<li class="nav__item item-102421 nav__item--zahranicie"><a data-abs-url="true" href="https://hnonline.sk/focus/zahranicie" class=" nav__link">Zahraničie</a></li>
+<li class="nav__item item-102430 nav__item--publicistika"><a data-abs-url="true" href="https://hnonline.sk/focus/publicistika" class=" nav__link">Publicistika</a></li>
+</ul>
+</li>
+<li class="nav__item item-101392 nav__item--auto menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/auto" class="menu-group-2 nav__link">Auto</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102454 nav__item--novinky"><a data-abs-url="true" href="https://hnonline.sk/auto/novinky" class=" nav__link">Novinky</a></li>
+<li class="nav__item item-102455 nav__item--servis"><a data-abs-url="true" href="https://hnonline.sk/auto/servis" class=" nav__link">Servis</a></li>
+<li class="nav__item item-102456 nav__item--testy"><a data-abs-url="true" href="https://hnonline.sk/auto/testy" class=" nav__link">Testy</a></li>
+<li class="nav__item item-102452 nav__item--automobilky"><a data-abs-url="true" href="https://hnonline.sk/auto/automobilky" class=" nav__link">Automobilky</a></li>
+<li class="nav__item item-102453 nav__item--doprava"><a data-abs-url="true" href="https://hnonline.sk/auto/doprava" class=" nav__link">Doprava</a></li>
+</ul>
+</li>
+<li class="nav__item item-102101 nav__item--sport menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/sport" class="menu-group-2 nav__link">Šport</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103158 nav__item--futbal"><a data-abs-url="true" href="https://hnonline.sk/sport/futbal" class=" nav__link">Futbal</a></li>
+<li class="nav__item item-103159 nav__item--hokej"><a data-abs-url="true" href="https://hnonline.sk/sport/hokej" class=" nav__link">Hokej</a></li>
+<li class="nav__item item-103160 nav__item--basketbal"><a data-abs-url="true" href="https://hnonline.sk/sport/basketbal" class=" nav__link">Basketbal</a></li>
+<li class="nav__item item-103161 nav__item--tenis"><a data-abs-url="true" href="https://hnonline.sk/sport/tenis" class=" nav__link">Tenis</a></li>
+<li class="nav__item item-103162 nav__item--atletika"><a data-abs-url="true" href="https://hnonline.sk/sport/atletika" class=" nav__link">Atletika</a></li>
+</ul>
+</li>
+<li class="nav__item item-101100 nav__item--tv menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/tv" class="menu-group-2 nav__link">HN Televízia</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-101101 nav__item--kategorie parent"><a data-abs-url="true" href="https://hnonline.sk/tv/kategorie" class=" nav__link">Kategórie</a></li>
+<li class="nav__item item-101102 nav__item--relacie parent"><a data-abs-url="true" href="https://hnonline.sk/tv/relacie" class=" nav__link">Relácie</a></li>
+</ul>
+</li>
+<li class="nav__item item-100008 nav__item--news menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/news" class="menu-group-2 nav__link">Stratégie</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102177 nav__item--archiv-clankov"><a data-abs-url="true" href="https://hnonline.sk/news/archiv-clankov" class=" nav__link">Aktuálne</a></li>
+<li class="nav__item item-102079 nav__item--media"><a data-abs-url="true" href="https://hnonline.sk/news/media" class=" nav__link">Médiá</a></li>
+<li class="nav__item item-102081 nav__item--marketing"><a data-abs-url="true" href="https://hnonline.sk/news/marketing" class=" nav__link">Marketing</a></li>
+<li class="nav__item item-102082 nav__item--blogy"><a data-abs-url="true" href="https://hnonline.sk/news/blogy" class=" nav__link">VIP Blogy</a></li>
+<li class="nav__item item-102225 nav__item--kto-kam"><a data-abs-url="true" href="https://hnonline.sk/news/kto-kam" class=" nav__link">Kto kam</a></li>
+<li class="nav__item item-102980 nav__item--specialne-prilohy"><a data-abs-url="true" href="https://hnonline.sk/news/specialne-prilohy" class=" nav__link">Špeciálne prílohy</a></li>
+<li class="nav__item item-103173 nav__item--agentura-roka"><a data-abs-url="true" href="https://hnonline.sk/news/agentura-roka" class=" nav__link">Agentúra roka</a></li>
+<li class="nav__item item-102194 nav__item--hodnotenia"><a data-abs-url="true" href="https://hnonline.sk/news/hodnotenia" class=" nav__link">Hodnotenia Stratégií</a></li>
+</ul>
+</li>
+<li class="nav__item item-102891 nav__item--zdn menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/zdn" class="menu-group-2 nav__link">Mediweb</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103172 nav__item--top-lekari"><a data-abs-url="true" href="https://hnonline.sk/zdn/top-lekari" class=" nav__link">Top lekári</a></li>
+<li class="nav__item item-102978 nav__item--zdravie"><a data-abs-url="true" href="https://hnonline.sk/zdn/zdravie" class=" nav__link">Zdravie</a></li>
+<li class="nav__item item-102910 nav__item--odborne-prilohy"><a data-abs-url="true" href="https://hnonline.sk/zdn/odborne-prilohy" class=" nav__link">Odborné prílohy</a></li>
+<li class="nav__item item-102897 nav__item--spravy"><a data-abs-url="true" href="https://hnonline.sk/zdn/spravy" class=" nav__link">Správy</a></li>
+<li class="nav__item item-102899 nav__item--rozhovory"><a data-abs-url="true" href="https://hnonline.sk/zdn/rozhovory" class=" nav__link">Rozhovory</a></li>
+<li class="nav__item item-102900 nav__item--nazory"><a data-abs-url="true" href="https://hnonline.sk/zdn/nazory" class=" nav__link">Názory</a></li>
+<li class="nav__item item-102901 nav__item--analyzy"><a data-abs-url="true" href="https://hnonline.sk/zdn/analyzy" class=" nav__link">Analýzy</a></li>
+<li class="nav__item item-102973 nav__item--inovacie"><a data-abs-url="true" href="https://hnonline.sk/zdn/inovacie" class=" nav__link">Inovácie</a></li>
+<li class="nav__item item-102977 nav__item--meditalk"><a data-abs-url="true" href="https://hnonline.sk/zdn/meditalk" class=" nav__link">Meditalk</a></li>
+</ul>
+</li>
+<li class="nav__item item-100001 nav__item--dia menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/dia" class="menu-group-2 nav__link">Dia</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102051 nav__item--zivot-s-diabetom"><a data-abs-url="true" href="https://hnonline.sk/dia/zivot-s-diabetom" class=" nav__link">Život s diabetom</a></li>
+<li class="nav__item item-102052 nav__item--ludia-ako-vy"><a data-abs-url="true" href="https://hnonline.sk/dia/ludia-ako-vy" class=" nav__link">Ľudia ako vy</a></li>
+<li class="nav__item item-102053 nav__item--co-na-tanier"><a data-abs-url="true" href="https://hnonline.sk/dia/co-na-tanier" class=" nav__link">Čo na tanier?</a></li>
+<li class="nav__item item-102054 nav__item--pohyb"><a data-abs-url="true" href="https://hnonline.sk/dia/pohyb" class=" nav__link">Pohyb</a></li>
+<li class="nav__item item-102055 nav__item--zdravie"><a data-abs-url="true" href="https://hnonline.sk/dia/zdravie" class=" nav__link">Zdravie</a></li>
+<li class="nav__item item-102056 nav__item--info-pre-diabetikov"><a data-abs-url="true" href="https://hnonline.sk/dia/info-pre-diabetikov" class=" nav__link">Info pre diabetikov</a></li>
+<li class="nav__item item-103262 nav__item--predplatne-diabetik"><a href="https://hnonline.sk/predplatne/tlacene-tituly/96016056-diabetik" class="nav__link nav-link" target="_blank" rel="noopener noreferrer">Predplatné Diabetik</a></li>
+</ul>
+</li>
+<li class="nav__item item-102985 nav__item--notsorry menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/notsorry" class="menu-group-2 nav__link">Brainee</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102986 nav__item--news parent"><a data-abs-url="true" href="https://hnonline.sk/notsorry/news" class=" nav__link">News</a></li>
+<li class="nav__item item-103029 nav__item--video"><a data-abs-url="true" href="https://hnonline.sk/notsorry/video" class=" nav__link">Video</a></li>
+<li class="nav__item item-103030 nav__item--podcasty"><a data-abs-url="true" href="https://hnonline.sk/notsorry/podcasty" class=" nav__link">Podcasty</a></li>
+</ul>
+</li>
+<li class="nav__item item-102570 nav__item--tema menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/tema" class="menu-group-2 nav__link">Téma</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103264 nav__item--predplatne-tyzdennika-tema"><a href="https://hnonline.sk/predplatne/tlacene-tituly/96016049-tema" class="nav__link nav-link" target="_blank" rel="noopener noreferrer">Predplatné týždenníka Téma</a></li>
+</ul>
+</li>
+<li class="nav__item item-102646 nav__item--carovne-slovensko menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/carovne-slovensko" class="menu-group-2 nav__link">Čarovné Slovensko</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103263 nav__item--predplatne-carovne-slovensko"><a href="https://hnonline.sk/predplatne/tlacene-tituly/96016047-carovne-slovensko" class="nav__link nav-link" target="_blank" rel="noopener noreferrer">Predplatné mesačníka Čarovné Slovensko</a></li>
+</ul>
+</li>
+<li class="nav__item item-101044 nav__item--magazin menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/magazin" class="menu-group-2 nav__link">Svetevity</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-101062 nav__item--krasa-a-moda"><a data-abs-url="true" href="https://hnonline.sk/magazin/krasa-a-moda" class=" nav__link">Krása a móda</a></li>
+<li class="nav__item item-101061 nav__item--celebrity"><a data-abs-url="true" href="https://hnonline.sk/magazin/celebrity" class=" nav__link">Celebrity</a></li>
+<li class="nav__item item-101047 nav__item--vztahy"><a data-abs-url="true" href="https://hnonline.sk/magazin/vztahy" class=" nav__link">Vzťahy</a></li>
+<li class="nav__item item-101049 nav__item--zdravie"><a data-abs-url="true" href="https://hnonline.sk/magazin/zdravie" class=" nav__link">Zdravie</a></li>
+<li class="nav__item item-101048 nav__item--zivotny-styl"><a data-abs-url="true" href="https://hnonline.sk/magazin/zivotny-styl" class=" nav__link">Životný štýl</a></li>
+<li class="nav__item item-102764 nav__item--kralovska-rodina"><a data-abs-url="true" href="https://hnonline.sk/magazin/kralovska-rodina" class=" nav__link">Kráľovská rodina</a></li>
+<li class="nav__item item-101050 nav__item--recepty-a-tipy"><a data-abs-url="true" href="https://hnonline.sk/magazin/recepty-a-tipy" class="nav__link nav__link" target="_blank">Recepty a tipy</a></li>
+<li class="nav__item item-101063 nav__item--horoskop parent"><a data-abs-url="true" href="https://hnonline.sk/magazin/horoskop" class="nav__link--horoscope nav__link">Horoskopy</a></li>
+<li class="nav__item item-101046 nav__item--pribehy"><a data-abs-url="true" href="https://hnonline.sk/magazin/pribehy" class=" nav__link">Príbehy</a></li>
+<li class="nav__item item-102884 nav__item--nakupy-pre-radost"><a data-abs-url="true" href="https://hnonline.sk/magazin/nakupy-pre-radost" class=" nav__link">Nákupy pre radosť</a></li>
+<li class="nav__item item-102890 nav__item--kvizy"><a data-abs-url="true" href="https://hnonline.sk/magazin/kvizy" class=" nav__link">Kvízy</a></li>
+<li class="nav__item item-103031 nav__item--zena-evity"><a data-abs-url="true" href="https://hnonline.sk/magazin/zena-evity" class=" nav__link">Žena Evity</a></li>
+<li class="nav__item item-103032 nav__item--evitovky"><a href="https://evitovky.sk/" class="nav__link nav-link" target="_blank" rel="noopener noreferrer">Evitovky</a></li>
+</ul>
+</li>
+<li class="nav__item item-102125 nav__item--rungo menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/rungo" class="menu-group-2 nav__link">RunGO</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102231 nav__item--behy"><a data-abs-url="true" href="https://hnonline.sk/rungo/behy" class=" nav__link">Behy</a></li>
+<li class="nav__item item-102232 nav__item--zdravie"><a data-abs-url="true" href="https://hnonline.sk/rungo/zdravie" class=" nav__link">Zdravie</a></li>
+<li class="nav__item item-102233 nav__item--strava"><a data-abs-url="true" href="https://hnonline.sk/rungo/strava" class=" nav__link">Strava</a></li>
+<li class="nav__item item-102234 nav__item--tipy-odbornikov"><a data-abs-url="true" href="https://hnonline.sk/rungo/tipy-odbornikov" class=" nav__link">Tipy odborníkov</a></li>
+<li class="nav__item item-102236 nav__item--trening parent"><a data-abs-url="true" href="https://hnonline.sk/rungo/trening" class=" nav__link">Tréning</a></li>
+<li class="nav__item item-102235 nav__item--aktuality"><a data-abs-url="true" href="https://hnonline.sk/rungo/aktuality" class=" nav__link">Aktuality</a></li>
+<li class="nav__item item-102239 nav__item--vybava"><a data-abs-url="true" href="https://hnonline.sk/rungo/vybava" class=" nav__link">Výbava</a></li>
+<li class="nav__item item-103261 nav__item--predplatne-rungo"><a href="https://hnonline.sk/predplatne/tlacene-tituly/96016093-rungo" class="nav__link nav-link" target="_blank" rel="noopener noreferrer">Predplatné RunGo</a></li>
+</ul>
+</li>
+<li class="nav__item item-102834 nav__item--hn-special menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/hn-special" class="menu-group-2 nav__link">HN špeciál</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103211 nav__item--kyberneticka-bezpecnost"><a data-abs-url="true" href="https://hnonline.sk/hn-special/kyberneticka-bezpecnost" class=" nav__link">Kybernetická bezpečnosť</a></li>
+<li class="nav__item item-103265 nav__item--obranny-priemysel"><a data-abs-url="true" href="https://hnonline.sk/hn-special/obranny-priemysel" class=" nav__link">Obranný priemysel</a></li>
+<li class="nav__item item-103270 nav__item--solventne-firmy"><a href="https://hnonline.sk/solventne-firmy" class="nav__link nav-link">Solventné firmy</a></li>
+</ul>
+</li>
+<li class="nav__item item-102121 nav__item--pr-clanky menu-group-2"><a data-abs-url="true" href="https://hnonline.sk/pr-clanky" class="menu-group-2 nav__link">PR články</a></li>
+<li class="nav__item item-103248 nav__item--hn-nativ menu-group-2"><a data-abs-url="true" href="https://hnonline.sk/hn-nativ" class="menu-group-2 nav__link">HN Natív</a></li>
+<li class="nav__item item-101498 nav__item--prakticke-hn menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/prakticke-hn" class="menu-group-2 nav__link">Praktické HN</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-102467 nav__item--dane-a-odvody"><a data-abs-url="true" href="https://hnonline.sk/prakticke-hn/dane-a-odvody" class=" nav__link">Dane a odvody</a></li>
+<li class="nav__item item-102468 nav__item--poradenstvo"><a data-abs-url="true" href="https://hnonline.sk/prakticke-hn/poradenstvo" class=" nav__link">Poradenstvo</a></li>
+<li class="nav__item item-102469 nav__item--obcan-a-majetok"><a data-abs-url="true" href="https://hnonline.sk/prakticke-hn/obcan-a-majetok" class=" nav__link">Občan a majetok</a></li>
+<li class="nav__item item-102835 nav__item--formulare menu-group-2"><a href="https://formulare.hnonline.sk/" class="menu-group-2 nav__link nav-link" target="_blank" rel="noopener noreferrer">Vzory zmlúv</a></li>
+<li class="nav__item item-102843 nav__item--praca menu-group-2"><a data-abs-url="true" href="https://hnonline.sk/prakticke-hn/praca" class="menu-group-2 nav__link">Práca</a></li>
+</ul>
+</li>
+<li class="nav__item item-103180 nav__item--hn-poradna menu-group-2"><a href="https://poradna.hnonline.sk/" class="menu-group-2 nav__link nav-link">HN Poradňa</a></li>
+<li class="nav__item item-103164 nav__item--konferencie menu-group-2 dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/konferencie" class="menu-group-2 nav__link nav__link">Konferencie</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103252 nav__item--archiv"><a data-abs-url="true" href="https://hnonline.sk/konferencie/archiv" class=" nav__link">Archív Konferencií</a></li>
+</ul>
+</li>
+<li class="nav__item item-103169 nav__item--hn-club menu-group-2"><a href="https://club.hnonline.sk/" class="menu-group-2 nav__link nav-link">HN Club</a></li>
+<li class="nav__item item-102463 nav__item--newsletter menu-group-2"><a data-abs-url="true" href="https://hnonline.sk/newsletter" class="menu-group-2 nav__link">Newsletter</a></li>
+<li class="nav__item item-103167 nav__item--cestovne-poriadky menu-group-2"><a href="https://cp.hnonline.sk/vlakbusmhd/spojenie/" class="menu-group-2 nav__link nav-link">Cestovné poriadky</a></li>
+<li class="nav__item item-103165 nav__item--mafra-slovakia menu-group-2"><a href="https://mafraslovakia.hnonline.sk/" class="menu-group-2 nav__link nav-link">Mafra Slovakia</a></li>
+<li class="nav__item item-103107 nav__item--predplatne dropdown parent"><a data-abs-url="true" href="https://hnonline.sk/predplatne" class=" nav__link" target="_blank">Predplatné</a><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+<ul class="dropdown-menu"><li class="nav__item item-103249 nav__item--hn-konto parent"><a data-abs-url="true" href="https://hnonline.sk/predplatne" >HNkonto</a></li>
+<li class="nav__item item-103250 nav__item--mediweb"><a data-abs-url="true" href="https://hnonline.sk/predplatne/mediweb" class=" nav__link">Mediweb</a></li>
+<li class="nav__item item-103227 nav__item--knihy"><a data-abs-url="true" href="https://hnonline.sk/predplatne/knihy" class=" nav__link">Knihy</a></li>
+<li class="nav__item item-103228 nav__item--tlacene-tituly"><a data-abs-url="true" href="https://hnonline.sk/predplatne/tlacene-tituly" class=" nav__link">Tlačené tituly</a></li>
+</ul>
+</li>
+
+
+<li class="nav__item--big-menu dropdown parent menu-group-1 nav__item--big-menu--hide"><div class="hamburger hamburger--squeeze">
+							<div class="hamburger-box">
+					  			<div class="hamburger-inner"></div>
+							</div>
+				  		 </div><ul class="dropdown-menu big-menu"></ul></li></ul>
+
+<div class="container container--inner container--mobile">
+<div class="navbar__mobile-copyright">Copyright <span class="impressum__copyright-logo">©</span> HNonline.sk 2022.</div></div>
+</div></nav><div id="hn_ticker_wrap">
+		<script id="hn_ticker">
+		(function() {
+
+			var request = new XMLHttpRequest();
+			var jsonURL = "https://static.hnonline.sk/modules_cache/hn_ticker.json";
+			request.open("GET", jsonURL, true);
+			console.log("%c JSON:::: request " + jsonURL, "color: #EE8800;")
+
+			request.onload = function() {
+				if (this.status >= 200 && this.status < 400) {
+					try { 
+						var jsonhtml = JSON.parse(this.response);
+						var elm = document.getElementById("hn_ticker");
+						elm.insertAdjacentHTML("afterend", jsonhtml);	
+
+						// execute scripts inside json html
+						var elmwrap = document.getElementById("hn_ticker_wrap");
+						Array.from(elmwrap.querySelectorAll("script")).forEach( origScript => {
+							if (origScript.getAttribute("id") != "hn_ticker") { 
+								const newScript = document.createElement("script");
+								Array.from(origScript.attributes).forEach( attr => newScript.setAttribute(attr.name, attr.value) );
+								newScript.appendChild(document.createTextNode(origScript.innerHTML));
+								origScript.parentNode.replaceChild(newScript, origScript);
+							}
+						});
+						console.log("%c JSON:::: received " + jsonURL, "color: #EE8800;")
+					} catch (err) {
+						console.log("%c JSON::::: error1 " + jsonURL, "color: red;")
+					}
+				} else {
+					console.log("%c JSON::::: error2 " + jsonURL, "color: red;")
+				}
+			};
+
+			request.onerror = function() {
+				console.log("%c JSON::::: error3 " + jsonURL + " " + request.responseText, "color: red;");
+			};
+			request.loadend = function() {
+				console.log("%c JSON::::: loadend " + jsonURL + " " + request.responseText, "color: red;");
+			};
+			request.send();
+
+		})();
+		</script>
+	</div>
+<div class="container container--inner container--search">
+    <div class="grid grid--search">
+                   
+        
+                    <a href="https://hnonline.sk/predplatne" class="nav__link--predplatne" title="Predplatné">Predplatné</a>
+           
+
+                        <div class="searchToggler" title="Vyhľadávanie">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.8 26.6">
+  <defs><style>.svg--searchToggler {fill: #fa1a98; }</style></defs>
+  <path class="svg--searchToggler" d="M23.8,22.3,18,16.5a8.9,8.9,0,0,0,1.8-5.3,8.6,8.6,0,1,0-8.5,8.5,8.3,8.3,0,0,0,5.3-1.8l5.8,5.8a.8.8,0,0,0,.7.3,1.1,1.1,0,0,0,.7-.3A1,1,0,0,0,23.8,22.3ZM4.7,11.2a6.6,6.6,0,1,1,13.1,0,6.4,6.4,0,0,1-1.9,4.6h0a6.4,6.4,0,0,1-4.6,1.9A6.5,6.5,0,0,1,4.7,11.2Z"/>
+</svg>
+                </div>
+            <div class="searchBox">
+                <form method="GET" action="https://hnonline.sk/search" id="mainMenuSearch">
+                    <input class="searchInput" name="q" type="text" placeholder="Vyhľadávanie"/>
+                    <button class="searchButton" type="submit"><i class="fas fa-search"></i></button>		
+                </form>
+                                    <button type="button" class="searchBox__close"><i class="far fa-times-circle"></i></button>
+                            </div>
+        
+                    <div class="piano-user-login">
+                                    <div class="piano-user-icon" title ="Login"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.8 26.6">
+  <defs>
+    <style>
+     .svg--piano-logged-out {
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+  <path id="Icon_awesome-user-circle" data-name="Icon awesome-user-circle" class="svg--piano-logged-out" d="M13.4.2A13.1,13.1,0,1,0,26.5,13.3,13.1,13.1,0,0,0,13.4.2Zm0,5.1A4.6,4.6,0,1,1,8.7,9.9h0A4.6,4.6,0,0,1,13.4,5.3Zm0,18.1a10.3,10.3,0,0,1-7.8-3.6,6.1,6.1,0,0,1,5.2-3.1h.4a7.8,7.8,0,0,0,2.2.4,7.8,7.8,0,0,0,2.1-.4h.4a5.9,5.9,0,0,1,5.2,3.1A9.9,9.9,0,0,1,13.4,23.4Z"/>
+</svg>
+</div>			                                
+                            </div>
+            <div class="dropdown piano-user-logout" style="display:none;">
+                            
+                    <div id="piano-user-menu" data-bs-toggle="dropdown" aria-expanded="false" class="piano-user-icon-red" title ="Login"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.8 26.6">
+  <defs>
+    <style>
+     .svg--piano-logged-out {
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+  <path id="Icon_awesome-user-circle" data-name="Icon awesome-user-circle" class="svg--piano-logged-out" d="M13.4.2A13.1,13.1,0,1,0,26.5,13.3,13.1,13.1,0,0,0,13.4.2Zm0,5.1A4.6,4.6,0,1,1,8.7,9.9h0A4.6,4.6,0,0,1,13.4,5.3Zm0,18.1a10.3,10.3,0,0,1-7.8-3.6,6.1,6.1,0,0,1,5.2-3.1h.4a7.8,7.8,0,0,0,2.2.4,7.8,7.8,0,0,0,2.1-.4h.4a5.9,5.9,0,0,1,5.2,3.1A9.9,9.9,0,0,1,13.4,23.4Z"/>
+</svg>
+</div>	            
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="piano-user-menu">
+                    <a class="dropdown-item" href="/users">
+                        <button type="button" class="btn">Môj profil</button>
+                    </a>
+                    <a class="dropdown-item" href="#" onclick="userLogout();return false;">
+                        <button type="button" class="btn">Odhlásiť</button>
+                    </a>
+                </div>
+            </div>
+                
+        
+        
+    </div>
+</div>
+
+<script>
+if ((parseInt(document.body.clientWidth) >= 1024) ) { //&& (idx > 3)) {
+	var bigMenuElement, bigMenuItems;
+
+	bigMenuElement = document.querySelector(':scope .navbar-main .big-menu');
+
+		
+
+	bigMenuItems = document.querySelectorAll(':scope .navbar-main .navbar-nav > .menu-group-2');
+	Array.from(bigMenuItems).forEach(function (item, idx) {
+		var newItem = item.cloneNode(true);
+		//try { newItem.querySelector('.dropdown-menu').remove(); } catch (ex) { };		
+		//try { newItem.querySelector('.dropdown-toggle').remove(); } catch (ex) { };				
+		bigMenuElement.appendChild(newItem);	
+	});
+
+	bigMenuItems = document.querySelectorAll(':scope .navbar-main .navbar-nav > .menu-group-3');
+	Array.from(bigMenuItems).forEach(function (item, idx) {
+		var newItem = item.cloneNode(true);
+		//try { newItem.querySelector('.dropdown-toggle').remove(); } catch (ex) { };				
+		bigMenuElement.appendChild(newItem);	
+	});	
+
+};
+
+var dropdownsInBigMenuRight = document.querySelectorAll(":scope .big-menu .nav__item .dropdown-toggle");
+Array.from(dropdownsInBigMenuRight).forEach(function (drm, idx) {
+    drm.addEventListener('click', function (e) {
+	  e.preventDefault();
+	  e.stopPropagation();
+	  var ddmEl = this.parentNode.querySelector(".dropdown-menu");
+	  ddmEl.classList.toggle('dropdown-menu--show');
+	  setTimeout(function() { ddmEl.classList.remove('dropdown-menu--show-all'); } , 500);
+
+	  if (ddmEl.children.length > 5) {
+		if (ddmEl.querySelectorAll(".nav__item--more-5").length == 0) {  
+			ddmEl.insertAdjacentHTML('beforeend', '<li class="nav__item nav__item--more-5"><span class="nav__link nav-link">Ďalšie</span></li>');
+			ddmEl.querySelectorAll(".nav__item--more-5")[0].addEventListener('click', function (e) {
+				e.preventDefault();
+	  			e.stopPropagation();
+				ddmEl.classList.add('dropdown-menu--show-all');
+			});
+		} 
+	  }
+    });
+});	
+
+var hamburgers = document.querySelectorAll(".hamburger");
+Array.from(hamburgers).forEach(function (hamburger, idx) {
+    hamburger.addEventListener('click', function (e) {
+      this.classList.toggle("is-active");
+    });
+});	
+</script>
+
+<script>
+    document.querySelector('html').classList.add('hncategory');
+</script>
+
+<div class="hncategory__submenu"><div class="hncategory__main"><a class="hncategory__link" href="/slovensko">Slovensko</a></div><ul class="hncategory__navbar">
+<li class="nav__item"><a class="nav__link " href="/slovensko/koronavirus">Koronavírus</a></li><li class="nav__item"><a class="nav__link " href="/slovensko/vlada">Vláda</a></li><li class="nav__item"><a class="nav__link " href="/slovensko/dialnice">Diaľnice</a></li><li class="nav__item"><a class="nav__link " href="/slovensko/doprava">Doprava</a></li><li class="nav__item"><a class="nav__link " href="/slovensko/eduard-heger">Eduard Heger</a></li><li class="nav__item"><a class="nav__link " href="/slovensko/igor-matovic">Igor Matovič</a></li><li class="nav__item"><a class="nav__link " href="/slovensko/richard-sulik">Richard Sulík</a></li><li class="nav__item"><a class="nav__link " href="/slovensko/peter-pellegrini">Peter Pellegrini</a></li><li class="nav__item"><a class="nav__link " href="/slovensko/robert-fico">Robert Fico</a></li></ul>
+
+</div>
+
+
+   </header></div><div class="container--break-menu">
+<div id="module_1166_wrap">
+		<script id="module_1166">
+		(function() {
+
+			var request = new XMLHttpRequest();
+			var jsonURL = "https://static.hnonline.sk/modules_cache/module_1166.json";
+			request.open("GET", jsonURL, true);
+			console.log("%c JSON:::: request " + jsonURL, "color: #EE8800;")
+
+			request.onload = function() {
+				if (this.status >= 200 && this.status < 400) {
+					try { 
+						var jsonhtml = JSON.parse(this.response);
+						var elm = document.getElementById("module_1166");
+						elm.insertAdjacentHTML("afterend", jsonhtml);	
+
+						// execute scripts inside json html
+						var elmwrap = document.getElementById("module_1166_wrap");
+						Array.from(elmwrap.querySelectorAll("script")).forEach( origScript => {
+							if (origScript.getAttribute("id") != "module_1166") { 
+								const newScript = document.createElement("script");
+								Array.from(origScript.attributes).forEach( attr => newScript.setAttribute(attr.name, attr.value) );
+								newScript.appendChild(document.createTextNode(origScript.innerHTML));
+								origScript.parentNode.replaceChild(newScript, origScript);
+							}
+						});
+						console.log("%c JSON:::: received " + jsonURL, "color: #EE8800;")
+					} catch (err) {
+						console.log("%c JSON::::: error1 " + jsonURL, "color: red;")
+					}
+				} else {
+					console.log("%c JSON::::: error2 " + jsonURL, "color: red;")
+				}
+			};
+
+			request.onerror = function() {
+				console.log("%c JSON::::: error3 " + jsonURL + " " + request.responseText, "color: red;");
+			};
+			request.loadend = function() {
+				console.log("%c JSON::::: loadend " + jsonURL + " " + request.responseText, "color: red;");
+			};
+			request.send();
+
+		})();
+		</script>
+	</div>
+</div>
+<div class="position_wall_left_right">
+<div class="position_wall_left">
+</div>
+<div class="position_wall_right">
+</div>
+</div>
+
+
+    <main id="ocmContainer" class="page--category page--slovensko">
+<div class="container container--break container--outter container--break-01">
+<div class="grid">
+<div class="position_break_01_top" ></div>
+
+<div class="position_break_01_bottom" ></div>
+</div>
+</div>
+<div class="container container--inner container--category  tpl_items category">
+<div class="grid grid--main"><div class="grid grid--left grid--left-no-title"><div class="grid grid--top"><div class="grid__card grid__card--main grid__card--large-icons"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5005 ">
+<a class="card__article-link" href="/slovensko/96031379-hladaju-noveho-sefa-pre-dolezity-urad-konciaci-predseda-zarabal-viac-ako-3000-eur-mesacne" title="Hľadaj&uacute; nov&eacute;ho &scaron;&eacute;fa pre d&ocirc;ležit&yacute; &uacute;rad. Končiaci predseda zar&aacute;bal viac ako 3000 eur mesačne">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1024px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1863366_1024.jpg?20220720124932"/>
+<source media="(min-width: 768px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1863366_1024.jpg?20220720124932"/>
+<source media="(min-width: 480px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1863366_640.jpg?20220720124932"/>
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1863366_480.jpg?20220720124932"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1863366_220.jpg" alt="&amp;lt;p&amp;gt;Predseda &Uacute;radu pre verejn&eacute; obstar&aacute;vanie Miroslav Hliv&aacute;k. FOTO: TASR/Martin Baumann&nbsp;&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Hľadajú nového šéfa pre dôležitý úrad. Končiaci predseda zarábal viac ako 3000 eur mesačne</span>
+<span class="card__introtext">Lehota na predloženie žiadosti o účasť na verejnom vypočutí je do 16. augusta 2022.</span>
+</h3>
+</a>
+</article></div></div><div class="grid grid--bottom"><div class="grid__card grid__card--bottom"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5006 ">
+<a class="card__article-link" href="/slovensko/96031365-najbohatsou-parlamentnou-stranou-je-olano-nema-ziadne-prijmy-z-darov" title="Najbohat&scaron;ou parlamentnou stranou je OĽANO. Nem&aacute; žiadne pr&iacute;jmy z darov">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1024px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1839212_480.jpg?20220720121656"/>
+<source media="(min-width: 768px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1839212_640.jpg?20220720121656"/>
+<source media="(min-width: 480px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1839212_480.jpg?20220720121656"/>
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1839212_340.jpg?20220720121656"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1839212_220.jpg" alt="&amp;lt;p&amp;gt;Minister financi&iacute; Igor Matovič a predseda vl&aacute;dy Eduard Heger. FOTO: TASR/Jakub Kotian&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Najbohatšou parlamentnou stranou je OĽANO. Nemá žiadne príjmy z darov</span>
+<span class="card__introtext">Hnutie Igora Matoviča dostalo zo štátneho rozpočtu vyše tri milióny eur.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--bottom"><article class=" card__article card__article--svet card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5006 ">
+<a class="card__article-link" href="/svet/96031361-vyluka-cez-rajku-sa-coskoro-skonci-premavka-ec-vlakov-sa-po-zosuve-pody-vracia-k-normalu" title="V&yacute;luka cez Rajku sa čoskoro skonč&iacute;. Prem&aacute;vka EC vlakov sa po zosuve p&ocirc;dy vracia k norm&aacute;lu">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1024px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1860420_480.jpg?20220720120233"/>
+<source media="(min-width: 768px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1860420_640.jpg?20220720120233"/>
+<source media="(min-width: 480px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1860420_480.jpg?20220720120233"/>
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1860420_340.jpg?20220720120233"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1860420_220.jpg" alt="&amp;lt;p&amp;gt;ILustračn&aacute; fotografia.&nbsp;FOTO:TASR/Radovan Stoklasa&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Výluka cez Rajku sa čoskoro skončí. Premávka EC vlakov sa po zosuve pôdy vracia k normálu</span>
+<span class="card__introtext">V úseku Sviz - Nagymaros - Visegrad, kde sa svah zosunul, budú vlaky ale ešte nejaký čas jazdiť po jednej koľaji, preto môžu mať meškanie do 15 minút.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--bottom"><article class=" card__article card__article--poradenstvo card__article--prakticke-hn card--mod-1351 card--art-class-100 card--pix-5006 ">
+<a class="card__article-link" href="/prakticke-hn/poradenstvo/96031303-pripad-rigo-aj-priznanie-bez-obhajcu-uznal-sud-za-platne" title="Pr&iacute;pad Rigo: aj priznanie bez obhajcu uznal s&uacute;d za platn&eacute;">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1024px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1862708_480.jpg?20220720110000"/>
+<source media="(min-width: 768px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1862708_640.jpg?20220720110000"/>
+<source media="(min-width: 480px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1862708_480.jpg?20220720110000"/>
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1862708_340.jpg?20220720110000"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1862708_220.jpg" alt="&amp;lt;p&amp;gt;&Scaron;trasbursk&yacute; s&uacute;d si v&scaron;imol, že sťažovateľa&nbsp;od momentu jeho vzatia do v&auml;zby zastupoval advok&aacute;t.&nbsp;FOTO: Shutterstock&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Prípad Rigo: aj priznanie bez obhajcu uznal súd za platné</span>
+<span class="card__introtext">Po priznaní bez prítomnosti advokáta sa sťažovateľ Ladislav Rigo obrátil na viacero súdnych inštancií. Vecou sa zaoberal aj Európsky súd pre ľudské práva.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--bottom"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5006 ">
+<a class="card__article-link" href="/slovensko/96031321-mikulcov-rezort-nakupi-vrtulniky-za-29-milionov-eur-pre-policajtov-a-zachranarov" title="Mikulcov rezort nak&uacute;pi vrtuľn&iacute;ky za 29 mili&oacute;nov eur pre policajtov a z&aacute;chran&aacute;rov">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1024px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1773589_480.jpg?20220720101137"/>
+<source media="(min-width: 768px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1773589_640.jpg?20220720101137"/>
+<source media="(min-width: 480px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1773589_480.jpg?20220720101137"/>
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1773589_340.jpg?20220720101137"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1773589_220.jpg" alt="&amp;lt;p&amp;gt;Minister vn&uacute;tra Roman Mikulec. FOTO: TASR/Jaroslav Nov&aacute;k&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Mikulcov rezort nakúpi vrtuľníky za 29 miliónov eur pre policajtov a záchranárov</span>
+<span class="card__introtext">Dôvodom obmeny vrtuľníkovej techniky sú problémy pri údržbe a prevádzke súčasných vrtuľníkov Mi-171 v súvislosti s aktuálnou situáciou na Ukrajine.</span>
+</h3>
+</a>
+</article></div></div></div><div class="grid grid--right"><div class="hn_topviewed"><div class="position_right_01_top" ></div>
+<div id="hn_slovensko_wrap">
+		<script id="hn_slovensko">
+		(function() {
+
+			var request = new XMLHttpRequest();
+			var jsonURL = "https://static.hnonline.sk/modules_cache/hn_slovensko.json";
+			request.open("GET", jsonURL, true);
+			console.log("%c JSON:::: request " + jsonURL, "color: #EE8800;")
+
+			request.onload = function() {
+				if (this.status >= 200 && this.status < 400) {
+					try { 
+						var jsonhtml = JSON.parse(this.response);
+						var elm = document.getElementById("hn_slovensko");
+						elm.insertAdjacentHTML("afterend", jsonhtml);	
+
+						// execute scripts inside json html
+						var elmwrap = document.getElementById("hn_slovensko_wrap");
+						Array.from(elmwrap.querySelectorAll("script")).forEach( origScript => {
+							if (origScript.getAttribute("id") != "hn_slovensko") { 
+								const newScript = document.createElement("script");
+								Array.from(origScript.attributes).forEach( attr => newScript.setAttribute(attr.name, attr.value) );
+								newScript.appendChild(document.createTextNode(origScript.innerHTML));
+								origScript.parentNode.replaceChild(newScript, origScript);
+							}
+						});
+						console.log("%c JSON:::: received " + jsonURL, "color: #EE8800;")
+					} catch (err) {
+						console.log("%c JSON::::: error1 " + jsonURL, "color: red;")
+					}
+				} else {
+					console.log("%c JSON::::: error2 " + jsonURL, "color: red;")
+				}
+			};
+
+			request.onerror = function() {
+				console.log("%c JSON::::: error3 " + jsonURL + " " + request.responseText, "color: red;");
+			};
+			request.loadend = function() {
+				console.log("%c JSON::::: loadend " + jsonURL + " " + request.responseText, "color: red;");
+			};
+			request.send();
+
+		})();
+		</script>
+	</div>
+<div class="position_right_02_top" ></div>
+</div></div></div></div>
+<div class="d-none hn_promopos" data-catID="2099" data-parentCatID="2096"></div><div id="hn_promopos1"></div>
+<div id="hn_promopos2"></div>
+<div id="hn_promopos3"></div>
+<script>
+    /*
+    var elPromoPos = document.querySelector('.hn_promopos');
+    var currCatID = elPromoPos.getAttribute('data-catID');
+    var parentCatID = elPromoPos.getAttribute('data-parentCatID');
+    */
+    var currCatID = 2099;
+    var parentCatID = 0;
+    
+    var loadedJsons = '';
+    function getJsonCallBack(text) {
+        loadedJsons = loadedJsons + text + ', ';
+        console.log(' promoclanky jsons loaded: ' + loadedJsons);
+        if ( (loadedJsons.indexOf('promopos1') !== -1) && (loadedJsons.indexOf('promopos2') !== -1) && (loadedJsons.indexOf('promopos3') !== -1) ){
+            placePRClanky();
+        }
+    }
+
+    function placePRClanky() {
+        
+        console.log ('promoclanky place');
+        var promoPosCurr1 = document.querySelector(':scope .hn_promopos1.hn_promocat-'+currCatID);  
+        var promoPosParent1 = document.querySelector(':scope .hn_promopos1.hn_promocat-'+parentCatID);
+       
+        var promoPosCurr2 = document.querySelector(':scope .hn_promopos2.hn_promocat-'+currCatID);  
+        var promoPosParent2 = document.querySelector(':scope .hn_promopos2.hn_promocat-'+parentCatID);
+        
+        var promoPosCurr3 = document.querySelector(':scope .hn_promopos3.hn_promocat-'+currCatID);  
+        var promoPosParent3 = document.querySelector(':scope .hn_promopos3.hn_promocat-'+parentCatID);
+
+        var destDiv = document.querySelector('.infinite-scroll-items');
+        
+        if (destDiv) {
+            if (promoPosCurr1) {
+                destDiv.insertBefore(promoPosCurr1, destDiv.children[1]);
+            } else {
+                if (promoPosParent1) {
+                    destDiv.insertBefore(promoPosParent1, destDiv.children[1]);
+                }
+            }
+
+            if (promoPosCurr2) {
+                destDiv.insertBefore(promoPosCurr2, destDiv.children[3]);
+            } else {
+                if (promoPosParent2) {
+                    destDiv.insertBefore(promoPosParent2, destDiv.children[3]);
+                }
+            }        
+
+            if (promoPosCurr3) {
+                destDiv.insertBefore(promoPosCurr3, destDiv.children[5]);
+            } else {
+                if (promoPosParent3) {
+                    destDiv.insertBefore(promoPosParent3, destDiv.children[5]);
+                }
+            }    
+        }    
+    };
+
+    function getJsonForPRClanky(jsonURL, json_filename, callback) {
+        var request = new XMLHttpRequest();
+        jsonURL = jsonURL + json_filename + '.json';
+		request.open("GET", jsonURL, true);
+        console.log("%c JSON:::: request " + jsonURL, "color: #EE8800;")
+        request.onload = function() {
+            if (this.status >= 200 && this.status < 400) {
+                try { 
+                    var jsonhtml = JSON.parse(this.response);
+                    var elm = document.getElementById(json_filename);
+                    elm.insertAdjacentHTML("afterbegin", jsonhtml);	
+
+                    console.log("%c JSON:::: received " + jsonURL, "color: #EE8800;")
+                    callback(json_filename);   
+
+                } catch (err) {
+                    console.log("%c JSON::::: error1 " + jsonURL, "color: red;")
+                }
+            } else {
+                console.log("%c JSON::::: error2 " + jsonURL, "color: red;")
+            }
+        };
+
+        request.onerror = function() {
+            console.log("%c JSON::::: error3 " + jsonURL + " " + request.responseText, "color: red;");
+        };
+        request.loadend = function() {
+            console.log("%c JSON::::: loadend " + jsonURL + " " + request.responseText, "color: red;");
+        };
+        request.send();
+     }
+
+    getJsonForPRClanky('https://static.hnonline.sk/modules_cache/', 'hn_promopos1', getJsonCallBack);
+    getJsonForPRClanky('https://static.hnonline.sk/modules_cache/', 'hn_promopos2', getJsonCallBack);
+    getJsonForPRClanky('https://static.hnonline.sk/modules_cache/', 'hn_promopos3', getJsonCallBack);        
+
+</script>
+
+
+<div class="container container--break container--outter container--break-02">
+<div class="grid">
+<div class="position_break_02_top" ></div>
+
+<div class="position_break_02_bottom" ></div>
+</div>
+</div>
+<div class="container container--inner container--loadmore  tpl_items category">
+<div class="grid grid--main"><div class="grid grid--left"><div id="infinite-scroll-itemlist"><div class="grid grid--scroll infinite-scroll-items" data-module_id="1351" data-category_id=""><div class="grid__card grid__card--zigzag grid__card--zigzag-1"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031312-spustili-ockovanie-stvrtou-davkou-pre-ludi-nad-50-rokov-ako-sa-prihlasit" title="Spustili očkovanie &scaron;tvrtou d&aacute;vkou pre ľud&iacute; nad 50 rokov (ako sa prihl&aacute;siť)">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1863035_340.jpg?20220720105128"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1863035_220.jpg" alt="&amp;lt;p&amp;gt;Ilustračn&aacute; sn&iacute;mka. FOTO: TASR/Pavel Neubauer&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Spustili očkovanie štvrtou dávkou pre ľudí nad 50 rokov (ako sa prihlásiť)</span>
+<span class="card__introtext">Počet pozitívnych prípadov v Európe rastie. Zdravotníctvo zatiaľ nie je preťažené, ale imunita po očkovaní časom slabne.
+
+ </span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-2"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031292-lengvarsky-nechce-v-lete-povinne-ruska-na-jesen-zmeni-nazor-ocakava-virolog" title="Lengvarsk&yacute; nechce v lete povinn&eacute; r&uacute;&scaron;ka. Na jeseň zmen&iacute; n&aacute;zor, očak&aacute;va virol&oacute;g">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1816506_340.jpg?20220720082924"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1816506_220.jpg" alt="&amp;lt;p&amp;gt;Žena s ochrann&yacute;m r&uacute;&scaron;kom čak&aacute; na prechode na križovatke v obchodnej &scaron;tvrti v Pekingu. FOTO: TASR/AP&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--video"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+  <defs>
+    <style>
+      .svg--cls-1 {
+        fill: #003063;
+        opacity: 0.8;
+      }
+      .svg--cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="svg--cls-1" width="97" height="64"/>
+  <path class="svg--cls-2" d="M51,49.9l.8.2a1.6,1.6,0,0,0,.9-.3L77.1,33.3a1.6,1.6,0,0,0,0-2.6L52.7,14.2a1.5,1.5,0,0,0-1.7-.1,1.6,1.6,0,0,0-.8,1.4v33A1.6,1.6,0,0,0,51,49.9Z"/>
+</svg>
+</div><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Lengvarský nechce v lete povinné rúška. Na jeseň zmení názor, očakáva virológ</span>
+<span class="card__introtext">„Povinnosťou sme toho až tak veľa nedosiahli, preto apelujem na zodpovednosť,“ uviedol minister zdravotníctva pre HNtelevíziu.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-3"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031286-covid-na-slovensku-takmer-kazdy-druhy-pcr-test-bol-pozitivny-hlasia-sedem-obeti" title="Covid na Slovensku: Takmer každ&yacute; druh&yacute; PCR test bol poz&iacute;tivny, hl&aacute;sia sedem obet&iacute;">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1011991_340.jpg?20220720080257"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1011991_220.jpg" alt="&amp;lt;p&amp;gt;Covid na Slovensku. FOTO: HN/Pavol Funt&aacute;l&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Covid na Slovensku: Takmer každý druhý PCR test bol pozítivny, hlásia sedem obetí</span>
+<span class="card__introtext">Laboratóriá na Slovensku v pondelok z 2 422 PCR testov zistili 1 159 nových prípadov covidu. Pozitivita je 47,85 percenta. Patológovia včera potvrdili sedem úmrtí na toto ochorenie. V nemocniciach je 396 hospitalizovaných pacientov.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-4"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031272-vo-viacerych-lokalitach-moze-teplota-v-stredu-dosiahnut-37-stupnov" title="Vo viacer&yacute;ch lokalit&aacute;ch m&ocirc;že teplota v stredu dosiahnuť 37 stupňov">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/20/h_1862524_340.jpg?20220720072635"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/20/h_1862524_220.jpg" alt="&amp;lt;p&amp;gt;Meteorologick&eacute; v&yacute;strahy. FOTO: SHM&Uacute;&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Vo viacerých lokalitách môže teplota v stredu dosiahnuť 37 stupňov</span>
+<span class="card__introtext">Aj počas stredy platia na väčšine územia výstrahy pred vysokými teplotami. Vo viacerých okresoch môžu dosiahnuť 37 stupňov Celzia.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-5"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031258-stat-chce-pri-priestupkoch-trestat-aj-14-rocne-deti-mali-by-si-to-odpracovat-ziada-policajt" title="&Scaron;t&aacute;t chce pri priestupkoch trestať aj 14-ročn&eacute; deti. Mali by si to odpracovať, žiada policajt">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1860317_340.jpg?20220719220000"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1860317_220.jpg" alt="&amp;lt;p&amp;gt;Policajti by mohli dostať nov&eacute; pr&aacute;vomoci trestať pri priestupkoch aj 14-ročn&yacute;ch. FOTO: TASR/R. Hanc&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Štát chce pri priestupkoch trestať aj 14-ročné deti. Mali by si to odpracovať, žiada policajt</span>
+<span class="card__introtext">Ministerstvo vnútra predstavilo novinku, ktorú môžu ľudia pripomienkovať. Mala by pomôcť znížiť kriminalitu maloletých.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-6"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031225-v-stredu-platia-pre-vysoke-teploty-vystrahy-prveho-aj-druheho-stupna-varuju-meteorologovia" title="V stredu platia pre vysok&eacute; teploty v&yacute;strahy prv&eacute;ho aj druh&eacute;ho stupňa, varuj&uacute; meteorol&oacute;govia">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1860637_340.jpg?20220719172217"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1860637_220.jpg" alt="&amp;lt;p&amp;gt;Meteorologick&eacute; v&yacute;strahy. FOTO: SHM&Uacute;&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+V stredu platia pre vysoké teploty výstrahy prvého aj druhého stupňa, varujú meteorológovia</span>
+<span class="card__introtext">Vo štvrtok bude ešte teplejšie, vydané sú aj výstrahy 3. stupňa.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-7"><article class=" card__article card__article--doslova card__article--relacie card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/tv/relacie/doslova/96031220-prednosta-porodnice-borovsky-u-nas-chyba-28-sestier-su-klucove-pri-porode-maju-byt-hlavne-oni-nie-lekar" title="Prednosta p&ocirc;rodnice Borovsk&yacute;: U n&aacute;s ch&yacute;ba 28 sestier. S&uacute; kľ&uacute;čov&eacute;, pri p&ocirc;rode maj&uacute; byť hlavne oni, nie lek&aacute;r">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1860534_340.jpg?20220719163556"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1860534_220.jpg" alt="&amp;lt;p&amp;gt;Prednosta Miroslav Borovsk&yacute; FOTO: Filip Duffala&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--video"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+  <defs>
+    <style>
+      .svg--cls-1 {
+        fill: #003063;
+        opacity: 0.8;
+      }
+      .svg--cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="svg--cls-1" width="97" height="64"/>
+  <path class="svg--cls-2" d="M51,49.9l.8.2a1.6,1.6,0,0,0,.9-.3L77.1,33.3a1.6,1.6,0,0,0,0-2.6L52.7,14.2a1.5,1.5,0,0,0-1.7-.1,1.6,1.6,0,0,0-.8,1.4v33A1.6,1.6,0,0,0,51,49.9Z"/>
+</svg>
+</div><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Prednosta pôrodnice Borovský: U nás chýba 28 sestier. Sú kľúčové, pri pôrode majú byť hlavne oni, nie lekár</span>
+<span class="card__introtext">Prednosta pôrodnice na Antolskej ulici v Bratislave a hlavný odborník ministerstva zdravotníctva pre pôrodníctvo Miroslav Borovský tvrdí, že aktuálne zvládajú situáciu bez problémov.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-8"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031202-volit-postou-zo-zahranicia-by-sa-mohlo-dat-aj-v-prezidentskych-volbach" title="Voliť po&scaron;tou zo zahraničia by sa mohlo dať aj v prezidentsk&yacute;ch voľb&aacute;ch">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_292594_340.jpg?20220719144707"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_292594_220.jpg" alt="&amp;lt;p&amp;gt;Ilustračn&aacute;&nbsp;fotografia. FOTO:&nbsp;Peter Mayer&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Voliť poštou zo zahraničia by sa mohlo dať aj v prezidentských voľbách</span>
+<span class="card__introtext">Novela by mala platiť od budúceho roka. Voľba poštou bude jednoduchšia a rýchlejšia, hlasovací lístok sa už bude dať vytlačiť z elektronickej podoby. V prípade problémov s doručením sa bude dať voľba opakovať.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-9"><article class=" card__article card__article--poradenstvo card__article--prakticke-hn card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/prakticke-hn/poradenstvo/96031173-na-vysoke-ceny-plynu-sa-mozete-pripravit-napriklad-stvorrocnou-zmluvou-s-dodavatelom" title="Na vysok&eacute; ceny plynu sa m&ocirc;žete pripraviť. Napr&iacute;klad &scaron;tvorročnou zmluvou s dod&aacute;vateľom">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/18/h_1835194_340.jpg?20220719143000"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/18/h_1835194_220.jpg" alt="&amp;lt;p&amp;gt;Slovensko m&aacute; druh&eacute; najvy&scaron;&scaron;ie z&aacute;soby plynu v Eur&oacute;pe. FOTO: TASR/J. Nov&aacute;k&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Na vysoké ceny plynu sa môžete pripraviť. Napríklad štvorročnou zmluvou s dodávateľom</span>
+<span class="card__introtext">Ani po odstavení plynovodu Nord Stream I Slovensko nečaká katastrofa. Komodity máme dostatok do konca vykurovacej sezóny, ak sa situácia v priemysle nevyvinie inak.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-10"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031195-polnohospodari-stale-cakaju-na-vyhlasku-o-nahlasovani-vyvozu-a-skladovych-zasob" title="Poľnohospod&aacute;ri st&aacute;le čakaj&uacute; na vyhl&aacute;&scaron;ku o nahlasovan&iacute; v&yacute;vozu a skladov&yacute;ch z&aacute;sob">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1846507_340.jpg?20220719141716"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1846507_220.jpg" alt="&amp;lt;p&amp;gt;Ilustračn&aacute; fotografia. FOTO: Reuters&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--gallery"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+  <defs>
+    <style>
+      .svg--cls-1 {
+        fill: #003063;
+        opacity: 0.8;
+      }
+      .svg--cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="svg--cls-1" width="97" height="64"/>
+  <path class="svg--cls-2" d="M54.1,29.1l9.6-16.7a21.2,21.2,0,0,0-4.4-.5,19.8,19.8,0,0,0-12.7,4.6L54,29.3Zm24.6-3A20.6,20.6,0,0,0,66.5,13.2L59.1,26.1Zm.5,2H64l.6,1,9.6,16.7a19.6,19.6,0,0,0,5.4-13.6A18.4,18.4,0,0,0,79.2,28.1ZM52.3,32.2,44.5,18.5a19.9,19.9,0,0,0-5.4,13.7,18.1,18.1,0,0,0,.4,4H54.7ZM40,38.2A20.6,20.6,0,0,0,52.2,51.1l7.4-12.9Zm22.8,0L55,51.9a21,21,0,0,0,4.3.5,19.9,19.9,0,0,0,12.8-4.6L64.7,35Z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Poľnohospodári stále čakajú na vyhlášku o nahlasovaní vývozu a skladových zásob</span>
+<span class="card__introtext">Povinnosť nahlasovať skladové zásoby a vývoz nad 400 ton už je v platnosti viac ako dva týždne a vyhláška stále chýba. Poľnohospodári tratia, pri vývoze obilia do zahraničia ho predajú za vyššie ceny.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-11"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031182-vysetrovanie-nelegalnych-lustracii-pokracuje-poskodenych-je-takmer-500-osob" title="Vy&scaron;etrovanie neleg&aacute;lnych lustr&aacute;ci&iacute; pokračuje. Po&scaron;koden&yacute;ch je takmer 500 os&ocirc;b">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1789057_340.jpg?20220719133258"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1789057_220.jpg" alt="&amp;lt;p&amp;gt;Auto policajn&eacute;ho zboru Slovenskej republiky. FOTO: TASR/Pavel Neubauer&amp;lt;br&amp;gt;
+&amp;lt;br&amp;gt;
+&nbsp;&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Vyšetrovanie nelegálnych lustrácií pokračuje. Poškodených je takmer 500 osôb</span>
+<span class="card__introtext">Nelegálna lustrácia v prípade politikov, podnikateľov a ich príbuzných mala prebiehať medzi rokmi 2015 až 2016.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-12"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031181-na-juhu-operuje-domobrana-je-proti-zvratenostiam-a-prehnanemu-liberalizmu-vycvik-ponuka-od-50-eur" title="Na juhu operuje domobrana. Je proti zvr&aacute;tenostiam a prehnan&eacute;mu liberalizmu, v&yacute;cvik pon&uacute;ka od 50 eur">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/18/h_1815358_340.jpg?20220719132638"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/18/h_1815358_220.jpg" alt="&amp;lt;p&amp;gt;T&aacute;bor m&aacute; prebiehať v okol&iacute; mesta Modr&yacute; Kameň v Banskobystrickom kraji&nbsp;. FOTO: TASR/M.&nbsp;Kapusta&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Na juhu operuje domobrana. Je proti zvrátenostiam a prehnanému liberalizmu, výcvik ponúka od 50 eur</span>
+<span class="card__introtext">V okrese Veľký Krtíš sa schyľuje k päťdňovému letnému kempu. Muž, ktorý je uvedený ako kontakt, má fotografiu s Marianom Kotlebom.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-13"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031179-u-lengvarskeho-prisli-s-novym-planom-chcu-nakupit-najucinnejsie-antivirotikum-pri-liecbe-covidu" title="U Lengvarsk&eacute;ho pri&scaron;li s nov&yacute;m pl&aacute;nom. Chc&uacute; nak&uacute;piť naj&uacute;činnej&scaron;ie antivirotikum pri liečbe covidu">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1797598_340.jpg?20220720071557"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1797598_220.jpg" alt="&amp;lt;p&amp;gt;Liek Paxlovid. FOTO: Reuters&nbsp;&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--gallery"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+  <defs>
+    <style>
+      .svg--cls-1 {
+        fill: #003063;
+        opacity: 0.8;
+      }
+      .svg--cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="svg--cls-1" width="97" height="64"/>
+  <path class="svg--cls-2" d="M54.1,29.1l9.6-16.7a21.2,21.2,0,0,0-4.4-.5,19.8,19.8,0,0,0-12.7,4.6L54,29.3Zm24.6-3A20.6,20.6,0,0,0,66.5,13.2L59.1,26.1Zm.5,2H64l.6,1,9.6,16.7a19.6,19.6,0,0,0,5.4-13.6A18.4,18.4,0,0,0,79.2,28.1ZM52.3,32.2,44.5,18.5a19.9,19.9,0,0,0-5.4,13.7,18.1,18.1,0,0,0,.4,4H54.7ZM40,38.2A20.6,20.6,0,0,0,52.2,51.1l7.4-12.9Zm22.8,0L55,51.9a21,21,0,0,0,4.3.5,19.9,19.9,0,0,0,12.8-4.6L64.7,35Z"/>
+</svg>
+</div><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+U Lengvarského prišli s novým plánom. Chcú nakúpiť najúčinnejšie antivirotikum pri liečbe covidu</span>
+<span class="card__introtext">Liek Paxlovid je určený pre dospelých s rizikom ťažkého priebehu ochorenia. Podľa odborníkov ho mali lekári mať k dispozícii už dávno.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-14"><article class=" card__article card__article--poradenstvo card__article--prakticke-hn card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/prakticke-hn/poradenstvo/96031159-kolikova-chce-zmeny-v-rozvodoch-v-hre-su-nove-lehoty-aj-formy-starostlivosti" title="Kol&iacute;kov&aacute; chce zmeny v rozvodoch. V hre s&uacute; nov&eacute; lehoty aj formy starostlivosti">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1773655_340.jpg?20220719130000"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1773655_220.jpg" alt="&amp;lt;p&amp;gt;Navrhovan&aacute; &uacute;činnosť zmien na ochranu malolet&yacute;ch je&amp;lt;br&amp;gt;
+od 1. decembra 2022. FOTO: TASR/Jaroslav Nov&aacute;k&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Kolíková chce zmeny v rozvodoch. V hre sú nové lehoty aj formy starostlivosti</span>
+<span class="card__introtext">Rodinné právo
+
+Poslanci posunuli do ďalšieho čítania zmenu, ktorá má byť podstatným krokom k tomu, aby sa deti nestávali rukojemníkmi počas rozvodov.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-15"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031160-medzi-svetovou-elitou-dve-slovenske-vysoke-skoly-sa-umiestnili-v-prestiznom-rebricku" title="Medzi svetovou elitou. Dve slovensk&eacute; vysok&eacute; &scaron;koly sa umiestnili v prest&iacute;žnom rebr&iacute;čku">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_898211_340.jpg?20220719122029"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_898211_220.jpg" alt="&amp;lt;p&amp;gt;Budova Univerzity Komensk&eacute;ho v Bratislave. FOTO: TASR/Dano Veselsk&yacute;&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Medzi svetovou elitou. Dve slovenské vysoké školy sa umiestnili v prestížnom rebríčku</span>
+<span class="card__introtext">Šanghajský rebríček je pravidelne zostavovaný od roku 2003, Slovensko v ňom má zastúpenie od roku 2017.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-16"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031148-rusi-mozu-vypnut-plyn-a-oni-sa-hadaju-povalit-vladu-teraz-by-bolo-zbabele-tvrdi-remisova" title="Rusi m&ocirc;žu vypn&uacute;ť plyn a oni sa h&aacute;daj&uacute;. Povaliť vl&aacute;du teraz by bolo zbabel&eacute;, tvrd&iacute; Remi&scaron;ov&aacute;">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1768167_340.jpg?20220719124250"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1768167_220.jpg" alt="&amp;lt;p&amp;gt;Vicepremi&eacute;rka Veronika Remi&scaron;ov&aacute;. FOTO: TASR/Martin Baumann&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--video"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+  <defs>
+    <style>
+      .svg--cls-1 {
+        fill: #003063;
+        opacity: 0.8;
+      }
+      .svg--cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="svg--cls-1" width="97" height="64"/>
+  <path class="svg--cls-2" d="M51,49.9l.8.2a1.6,1.6,0,0,0,.9-.3L77.1,33.3a1.6,1.6,0,0,0,0-2.6L52.7,14.2a1.5,1.5,0,0,0-1.7-.1,1.6,1.6,0,0,0-.8,1.4v33A1.6,1.6,0,0,0,51,49.9Z"/>
+</svg>
+</div><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Rusi môžu vypnúť plyn a oni sa hádajú. Povaliť vládu teraz by bolo zbabelé, tvrdí Remišová</span>
+<span class="card__introtext">Vicepremiérka Veronika Remišová hovorí, že koaliční partneri Igor Matovič a Richard Sulík si na riešenie svojich osobných sporov vybrali veľmi zlý čas.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-17"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031136-vo-stvrtok-hrozia-horucavy-az-39-stupnov-celzia-horucemu-dnu-sa-nevyhne-ani-jeden-okres" title="Vo &scaron;tvrtok hrozia hor&uacute;čavy až 39 stupňov Celzia. Hor&uacute;cemu dňu sa nevyhne ani jeden okres">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1842605_340.jpg?20220719102258"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1842605_220.jpg" alt="&amp;lt;p&amp;gt;Ľudia sa osviežuj&uacute; pri stojane s vodnou hmlou počas hor&uacute;ceho letn&eacute;ho dňa v centre mesta v Bratislave. FOTO: TASR/Pavol Zachar&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Vo štvrtok hrozia horúčavy až 39 stupňov Celzia. Horúcemu dňu sa nevyhne ani jeden okres</span>
+<span class="card__introtext">Meteorológovia vydali na štvrtok výstrahy tretieho stupňa pre viaceré okresy na západe a juhu Slovenska.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-18"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031133-tazkosti-arrivy-pretrvavaju-pocas-dnesneho-dna-nevypravi-11-autobusovych-spojov" title="Ťažkosti Arrivy pretrv&aacute;vaj&uacute;. Počas dne&scaron;n&eacute;ho dňa nevyprav&iacute; 11 autobusov&yacute;ch spojov">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1859331_340.jpg?20220719095554"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1859331_220.jpg" alt="&amp;lt;p&amp;gt;Depo&nbsp;autobusov prepravnej spoločnosti Arriva. FOTO: TASR/Pavel Neubauer&nbsp;&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Ťažkosti Arrivy pretrvávajú. Počas dnešného dňa nevypraví 11 autobusových spojov</span>
+<span class="card__introtext">Nevypravenie autobusových spojov súvisí s náhlou zvýšenou chorobnosťou vodičov a zhoršujúcou sa epidemiologickou situáciou. </span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-19"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031124-na-urade-vlady-ma-byt-rekonstrukcia-ku-kauze-sumrak" title="Na &uacute;rade vl&aacute;dy m&aacute; byť rekon&scaron;trukcia ku kauze S&uacute;mrak">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_290209_340.jpg?20220719115644"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_290209_220.jpg" alt="&amp;lt;p&amp;gt;Priestory &Uacute;radu vl&aacute;dy, kde by mala prebehn&uacute;ť rekon&scaron;trukcia kauzy S&uacute;mrak. FOTO: HN/Marek Kmeť&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+</figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Na úrade vlády má byť rekonštrukcia ku kauze Súmrak</span>
+<span class="card__introtext">Vyšetrovateľ NAKA v apríli v rámci akcie Súmrak obvinil expremiéra Roberta Fica a exministra vnútra Roberta Kaliňáka.</span>
+</h3>
+</a>
+</article></div><div class="grid__card grid__card--zigzag grid__card--zigzag-20"><article class=" card__article card__article--slovensko card__article--hnonline card--mod-1351 card--art-class-100 card--pix-5002 ">
+<a class="card__article-link" href="/slovensko/96031115-alternativna-trasa-elektricky-mimo-snd-je-kratsia-a-rychlejsia-milanova-vyzyva-mesto-aby-zvazilo-zmenu" title="Alternat&iacute;vna trasa električky mimo SND je krat&scaron;ia a r&yacute;chlej&scaron;ia. Milanov&aacute; vyz&yacute;va mesto, aby zv&aacute;žilo zmenu">
+<figure class="card__figure">
+<picture class="card__picture card__picture--new">
+<source media="(min-width: 1px)" srcset="/templates/site/images/jpgs/ph_h_no-image_220.jpg?v1" data-srcset="https://static.hnonline.sk/images/slike/2022/07/19/h_1166711_340.jpg?20220719111257"/>
+<img class="card__image lazyload" src="https://static.hnonline.sk/images/slike/2022/07/19/h_1166711_220.jpg" alt="&amp;lt;p&amp;gt;Električky pri konečnej zast&aacute;vke Jungmannova&nbsp;v Bratislave.&nbsp;FOTO: TASR/Pavol Zachar&nbsp;&amp;lt;/p&amp;gt;" onerror="imageFallBack(this, 'site')" data-fallback="" />
+</picture>
+<div class="card__figure-icons"><div class="card__figure-icon card__figure-icon--video"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+  <defs>
+    <style>
+      .svg--cls-1 {
+        fill: #003063;
+        opacity: 0.8;
+      }
+      .svg--cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="svg--cls-1" width="97" height="64"/>
+  <path class="svg--cls-2" d="M51,49.9l.8.2a1.6,1.6,0,0,0,.9-.3L77.1,33.3a1.6,1.6,0,0,0,0-2.6L52.7,14.2a1.5,1.5,0,0,0-1.7-.1,1.6,1.6,0,0,0-.8,1.4v33A1.6,1.6,0,0,0,51,49.9Z"/>
+</svg>
+</div><div class="card__figure-icon card__figure-icon--premium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 64">
+	<defs>
+		<style>
+		.svg--cls-1 {
+			fill: #003063;
+			isolation: isolate;
+			opacity: 0.8;
+		}
+
+		.svg--cls-2 {
+			fill: #fff;
+		}
+		</style>	
+	</defs>
+	<rect class="svg--cls-1" width="97" height="64"/>
+	<path class="svg--cls-2" d="M71.3,29H52.5v-6.5c0-6.1-4.9-11-11-11s-11,4.9-11,11V29h3.9v-6.5c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2V29
+		h-1.6c-2,0-3.5,1.6-3.5,3.5v15.8c0,2,1.6,3.5,3.5,3.5h24.2c2,0,3.5-1.6,3.5-3.5V32.5C74.8,30.6,73.2,29,71.3,29z M60.4,40.2v4.6
+		h-2.5v-4.6c-1.1-0.5-1.8-1.6-1.8-2.8c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C62.3,38.7,61.5,39.8,60.4,40.2z"/>
+</svg>
+</div></div></figure>
+<h3 class="card__info no_ellipsis">
+<span class="card__title ">
+Alternatívna trasa električky mimo SND je kratšia a rýchlejšia. Milanová vyzýva mesto, aby zvážilo zmenu</span>
+<span class="card__introtext">Plánovaná trasa električkovej trate podľa ministerky kultúry ohrozuje chod SND a degraduje verejný priestor. Navrhuje magistrátu alternatívu, ktorá by viedla poza divadlo.</span>
+</h3>
+</a>
+</article></div></div><div class="category-infinite-scroll" data-total="3551"><ul class="pagination" style="display: none;"><li class="next"><a data-page="2" href="/slovensko?page=2">next page</a></li></ul></div><div class="text-center m-5"><div class="spinner-border d-none" role="status"></div></div><div class="infinite-scroll-end"></div></div></div><div class="grid grid--right"><div class="position_loadmore_top" ></div>
+</div></div></div>
+	
+</main>
+
+<!-- Orion Web "OCM" | Learn more about us at http://www.orion-web.hr -->
+
+
+
+    <div class="container container--outter"><div class="position_megaboard_top">
+</div>
+</div><div class="position_vigneta_top">
+</div>
+<div class="position_sticker_top">
+</div>
+<div class="position_plachta_top">
+</div>
+<div class="piano_ribbon"></div>
+<footer id="t3-footer" class="wrap t3-footer">
+	<div class="mobile-menu"><a class="menu__item--hn" href="https://hnonline.sk" title="HN"><img class="mobile-menu__img" src="/templates/site/images/svgs/hnonline_logo_white_small.svg?1647501869" alt="HN"><span class="mobile-menu__text">HNonline</span></a><a class="menu__item--hn24" href="/hn24" title="HN24"><img class="mobile-menu__img" src="/templates/site/images/svgs/hnonline_hn24_negativ.svg?1650638420" alt="HN24"><span class="mobile-menu__text">HN24</span></a><a class="menu__item--hntv" href="/tv" title="HNTV"><img class="mobile-menu__img" src="/templates/site/images/pngs/hnonline_tv_small.png?1651781806" alt="HNTV"><span class="mobile-menu__text">HNtelevízia</span></a></div>
+
+<div class="container container--inner container--impressum">
+<div class="grid grid--impressum"><div class="grid grid--col-1 impressum-odkazy"><div class="impressum-odkazy__title">ODKAZY</div><span class="svetevity--hide menu__item menu__item1"><a class="menu__link nav__link" href="https://hnonline.sk/predplatne" target="_blank">Predplatné</a></span><span class="svetevity--hide menu__item menu__item2"><a class="menu__link nav__link" href="https://mafraslovakia.hnonline.sk/kariera/volne-pracovne-miesta/zoznam" target="_blank">Práca u nás</a></span><span class="svetevity--hide menu__item menu__item3"><a class="menu__link nav__link" href="https://club.hnonline.sk/" target="_blank">HNClub</a></span><span class="svetevity--hide menu__item menu__item4"><a class="menu__link nav__link" href="https://konferencie.hnonline.sk/" target="_blank">HNkonferencie</a></span><span class=" menu__item menu__item5"><a class="menu__link nav__link" href="https://portfolio.hnonline.sk/mafraslovakia-portfolio-titulov" target="_blank">Inzercia</a></span><span class=" menu__item menu__item6"><a class="menu__link nav__link" href="https://mafraslovakia.hnonline.sk/online-inzercia" target="_blank">Online inzercia</a></span><span class="svetevity--hide menu__item menu__item7"><a class="menu__link nav__link" href="https://monitor.iabslovakia.sk/" target="_blank">AIM monitor</a></span><span class=" menu__item menu__item8"><a class="menu__link nav__link" href="https://mafraslovakia.hnonline.sk/kontakt" target="_blank">Kontakt</a></span><span class=" menu__item menu__item9"><a class="menu__link nav__link" href="https://hnonline.sk/gdpr" target="_blank">GDPR</a></span><span class="svetevity--hide menu__item menu__item10"><a class="menu__link nav__link" href="https://hnonline.sk/tag/vseobecny-statut-sutazi" target="_blank">Štatúty súťaží</a></span><span class="svetevity--hide menu__item menu__item11"><a class="menu__link nav__link" href="https://hnonline.sk/newsletter" target="_blank">Newsletter</a></span><span class="svetevity--hide menu__item menu__item12"><a class="menu__link nav__link" href="https://hnonline.sk/predplatne?utm_source=aktiovanie-kodu" >Aktivačný kód - HNonline</a></span><span class="svetevity--hide menu__item menu__item13"><a class="menu__link nav__link" href="https://hnonline.sk/predplatne/mediweb?utm_source=aktivovanie-kodu" >Aktivačný kód - Mediweb</a></span><a class="impressum__kodexo-link" href="https://www.ssn.sk/eticky-kodex-novinara"><img class="impressum__kodex-img" title="Etický kódex novinára" alt="Etický kódex novinára" src="/templates/site/images/pngs/mafra-eticky-kodex.png?1640257768"/></a></div><div class="grid grid--col-2 impressum-social"><div class="impressum-social__title">Sociálne siete</div><span class="svetevity--hide menu__item menu__item1"><a class="menu__link nav__link" href="https://www.facebook.com/hospodarskenoviny" target="_blank">Facebook</a></span><span class="svetevity--hide menu__item menu__item2"><a class="menu__link nav__link" href="https://www.instagram.com/hospodarske_noviny/" target="_blank">Instagram</a></span><span class="svetevity--hide menu__item menu__item3"><a class="menu__link nav__link" href="https://twitter.com/hnonline" target="_blank">Twitter</a></span><span class="svetevity--hide menu__item menu__item4"><a class="menu__link nav__link" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQH3JqlZZAxp4wAAAX9ABwvwKxU19VIurNB6sBxpyfpltkYfADUuayCNvLAeoomHeBX0c_3SVVIwXV6ZK1jmYAhp0S0UMC4VQgqhleg9zyHIagoZx4j1gpo7EkL9aj41f4RIfg8=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fecopress" target="_blank">LinkedIN</a></span><span class="svetevity--hide menu__item menu__item5"><a class="menu__link nav__link" href="https://www.youtube.com/channel/UCWzUV7BBmiE8Sbt8xo89tDA" target="_blank">YouTube</a></span></div><div class="grid grid--col-3 impressum-apps"></div><div class="grid grid--col-4 impressum-mafra"><a class="impressum-mafra__title" href="https://www.google.com/maps?ll=48.162702,17.13768&z=15&t=m&hl=sk&gl=SK&mapclient=embed&q=Kalin%C4%8Diakova+33+831+04+Bratislava" target="_blank">MAFRA Slovakia a.s. | Kalinčiakova 33 | 831 04 Bratislava (mapa)</a><div class="impressum-mafra__text">Všetky práva vyhradené. Publikovanie alebo ďalšie šírenie správ, fotografií a dát je bez predchádzajúceho písomného súhlasu porušením autorského zákona</div><div class="impressum-mafra__text">MAFRA Slovakia, a.s. je členom skupiny AGROFERT</div></div></div><div class="impressum impressum--copyright"><div class="impressum__copy-text">Copyright <span class="impressum__copyright-sign">©</span> MAFRA Slovakia 2022.</div><div class="impressum__builtby">CMS: <a class="impressum__builtby-link" href="https://www.storyeditor.com.hr/" title="Domena.com">Domena.com</a></div></div></div>
+
+</footer>
+
+
+
+
+  <div class="d-none se__menu">menuLevel = 1, menuRoute = slovensko, menuAlias = slovensko, menuRouteLevel0 = slovensko, homepage = false</div><script>
+    // detect blocking ads
+    window.addEventListener( 'load', function () {
+        conAdColor = 'color: blue;';
+        if (document.getElementById('BlockingAds')){
+            console.log('%c Ads::::: Blocking Ads: No', conAdColor );
+        } else {
+            console.log('%c Ads::::: Blocking Ads: Yes', conAdColor );
+        }
+    });
+</script>
+
+<script> (function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience-eu.piano.io/xbuilder/experience/load?aid=M2qYr8K6pe");</script>
+<!-- (C)2000-2021 Gemius SA - gemiusPrism -->
+            <script>
+            <!--//--><![CDATA[//><!--
+            var pp_gemius_identifier = 'nGiQpMymIx1djuHiMHQqgseB7zewxGdLezJghPNLK3z.E7';
+            // lines below shouldn't be edited
+            function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');gt.setAttribute('defer','defer'); gt.src=l+'://gask.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+            //--><!]]>
+            </script>
+<script>console.log(' Gemius:: ID = ' + pp_gemius_identifier);</script>
+<!-- (c) 2022 Gemius SA / gemiusHeatMap / mafrask -->
+            <script>
+            var ghmxy_type = 'absolute';
+            var ghmxy_align = 'center';
+            var ghmxy_identifier = 'B8Lq_G7ov4NzRZOKTC2MafTX33kpmW7Q0aRQShvsnwj.97';
+            var ghmxy_hitcollector = 'ghmsk.hit.gemius.pl';
+            </script>
+            <script async src="https://ghmsk.hit.gemius.pl/hmapxy.js"></script>
+<div class="d-none se__ts" data-timestamp="1658323797">20. júl 2022 15:29</div>
+
+  
+<script>(function(){var js = "window['__CF$cv$params']={r:'72dc0cad28ecb342',m:'xVCeNtVQUp8SNKA2bOv61BvCaIsGzB2yuzW.d3Krh1E-1658323806-0-AZQt4N+737lpPfVADzjbUM5qExxfamb+G49/RfHQ3CUlhrD5E788OHsjcvgKRMorStkGK6N6dyHoUz8VoLU2M4wbdXR43k8z0IDIYTsLiLogZmfdKRrAxC0m/lW8tFHFgw==',s:[0x906de49fa2,0xee96e480a6],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+</html>
